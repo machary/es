@@ -1,0 +1,419 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: Freehold/functions.php:183
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. Text in function
+#: Freehold/functions.php:183
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr ""
+
+#. Text in function
+#: Freehold/archive.php:15
+msgid "%s Category"
+msgstr ""
+
+#. Text in function
+#: Freehold/comments.php:57
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. Text in echo
+#: Freehold/widgets/featured-property-posts.php:69
+#: Freehold/sidebar-real-estate.php:255
+#: Freehold/widgets/properties-by-status.php:67
+#: Freehold/single-property.php:17
+#: Freehold/property-listing.php:21
+msgid "/month"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:293
+#: Freehold/sidebar-listing.php:88
+msgid "Added"
+msgstr ""
+
+#. Text in echo
+#: Freehold/single-property.php:136
+msgid "Agent Information"
+msgstr ""
+
+#. Text in echo
+#: Freehold/archive.php:19
+msgid "Blog Archives"
+msgstr ""
+
+#. Text in echo
+#: Freehold/slider.php:42
+#: Freehold/widgets/featured-property-posts.php:66
+#: Freehold/sidebar-real-estate.php:258
+#: Freehold/widgets/properties-by-status.php:64
+#: Freehold/single-property.php:14
+#: Freehold/property-listing.php:18
+#: Freehold/sidebar-listing.php:41
+msgid "Call For Price"
+msgstr ""
+
+#. Text in echo
+#: Freehold/property-listing.php:34
+msgid "Car Garage"
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#. Text in function
+#: Freehold/archive.php:9
+msgid "Daily Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: Freehold/contact-full.php:90
+#: Freehold/contact.php:89
+msgid "E-mail"
+msgstr ""
+
+#. Text in function
+#: Freehold/functions.php:174
+#: Freehold/functions.php:202
+msgid "Edit"
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:119
+msgid "Email"
+msgstr ""
+
+#. Text in echo
+#: Freehold/contact-full.php:83
+#: Freehold/contact.php:82
+msgid "Email Successfully Sent!"
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:131
+msgid "Enter Comment"
+msgstr ""
+
+#. Text in echo
+#: Freehold/contact-full.php:92
+#: Freehold/contact.php:91
+msgid "Enter a message"
+msgstr ""
+
+#. Text in echo
+#: Freehold/agents.php:53
+#: Freehold/author.php:37
+msgid "Fax"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:53
+#: Freehold/header.php:224
+msgid "For Rent"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:54
+#: Freehold/header.php:225
+msgid "For Sale"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:245
+msgid "Larger Map"
+msgstr ""
+
+#. Text in function
+#: Freehold/comments.php:80
+msgid "Leave A Comment"
+msgstr ""
+
+#. Text in echo
+#: Freehold/property-listing.php:35
+msgid "Listed"
+msgstr ""
+
+#. Text in echo
+#: Freehold/author.php:14
+msgid "Listings By"
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:93
+msgid "Log out &raquo;"
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:93
+msgid "Logged in as"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:288
+#: Freehold/sidebar-listing.php:83
+msgid "Lot"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:68
+#: Freehold/header.php:150
+msgid "Max Price"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:64
+#: Freehold/header.php:144
+msgid "Min Price"
+msgstr ""
+
+#. Text in echo
+#: Freehold/agents.php:50
+#: Freehold/author.php:34
+msgid "Mobile"
+msgstr ""
+
+#. Text in function
+#: Freehold/archive.php:11
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: Freehold/header.php:231
+msgid "More search options"
+msgstr ""
+
+#. Text in echo
+#: Freehold/archive-property.php:71
+msgid "Most Recent"
+msgstr ""
+
+#. Text in echo
+#: Freehold/contact-full.php:88
+#: Freehold/comments.php:113
+#: Freehold/contact.php:87
+msgid "Name"
+msgstr ""
+
+#. Text in function
+#: Freehold/comments.php:58
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. Text in echo
+#: Freehold/agents.php:47
+#: Freehold/author.php:31
+msgid "Office"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:55
+#: Freehold/sidebar-real-estate.php:264
+#: Freehold/single-property.php:37
+#: Freehold/property-listing.php:6
+#: Freehold/property-listing.php:39
+#: Freehold/header.php:226
+#: Freehold/sidebar-listing.php:51
+msgid "Open House"
+msgstr ""
+
+#. Text in echo
+#: Freehold/index.php:64
+#: Freehold/archive-property.php:264
+#: Freehold/search.php:66
+#: Freehold/homepage-blog.php:101
+#: Freehold/homepage.php:90
+#: Freehold/author.php:103
+#: Freehold/taxonomy-property_type.php:81
+msgid "Page"
+msgstr ""
+
+#. Text in echo
+#: Freehold/functions.php:174
+msgid "Pingback:"
+msgstr ""
+
+#. Text in echo
+#: Freehold/contact-full.php:79
+#: Freehold/contact.php:78
+msgid "Please check if you have filled all the fields with valid information. Thank you."
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:103
+#: Freehold/comments.php:137
+msgid "Post Comment"
+msgstr ""
+
+#. Text in echo
+#: Freehold/index.php:14
+#: Freehold/single.php:14
+#: Freehold/search.php:13
+#: Freehold/homepage-blog.php:45
+#: Freehold/archive.php:31
+msgid "Posted on"
+msgstr ""
+
+#. Text in echo
+#: Freehold/archive-property.php:72
+msgid "Price (high to low)"
+msgstr ""
+
+#. Text in echo
+#: Freehold/archive-property.php:73
+msgid "Price (low to high)"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:67
+msgid "Price Max"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:63
+msgid "Price Min"
+msgstr ""
+
+#. Text in function
+#: Freehold/functions.php:215
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:213
+#: Freehold/searchform.php:2
+#: Freehold/header.php:136
+#: Freehold/header.php:138
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: Freehold/header.php:244
+msgid "Search More"
+msgstr ""
+
+#. Text in function
+#: Freehold/search.php:7
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Text in echo
+#: Freehold/searchform.php:3
+msgid "Search our blog..."
+msgstr ""
+
+#. Text in echo
+#: Freehold/contact-full.php:94
+#: Freehold/contact.php:93
+msgid "Send Message"
+msgstr ""
+
+#. Text in echo
+#: Freehold/agents.php:58
+#: Freehold/author.php:42
+msgid "Send a Message"
+msgstr ""
+
+#. Text in echo
+#: Freehold/single-property.php:108
+msgid "Share this"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:285
+#: Freehold/sidebar-listing.php:80
+msgid "Size"
+msgstr ""
+
+#. Text in echo
+#: Freehold/search.php:51
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#. Text in function
+#: Freehold/archive.php:17
+msgid "Tag: %s"
+msgstr ""
+
+#. Text in echo
+#: Freehold/contact-full.php:84
+#: Freehold/contact.php:83
+msgid "Thank you for using my contact form! I will be in touch with you soon."
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:5
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#. Text in function
+#: Freehold/widgets/property-types.php:56
+msgid "View all posts in %s"
+msgstr ""
+
+#. Text in echo
+#: Freehold/comments.php:125
+msgid "Website"
+msgstr ""
+
+#. Text in echo
+#: Freehold/sidebar-real-estate.php:291
+#: Freehold/sidebar-listing.php:86
+msgid "Year built"
+msgstr ""
+
+#. Text in function
+#: Freehold/archive.php:13
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#. Text in echo
+#: Freehold/functions.php:206
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Text in echo
+#: Freehold/index.php:14
+#: Freehold/single.php:14
+#: Freehold/search.php:13
+#: Freehold/homepage-blog.php:45
+#: Freehold/archive.php:31
+msgid "by"
+msgstr ""
+
+#. Text in echo
+#: Freehold/index.php:14
+#: Freehold/single.php:14
+#: Freehold/search.php:13
+#: Freehold/homepage-blog.php:45
+#: Freehold/archive.php:31
+msgid "in"
+msgstr ""
+
+#. Text in echo
+#: Freehold/index.php:64
+#: Freehold/archive-property.php:264
+#: Freehold/search.php:66
+#: Freehold/homepage-blog.php:101
+#: Freehold/homepage.php:90
+#: Freehold/author.php:103
+#: Freehold/taxonomy-property_type.php:81
+msgid "of"
+msgstr ""
+
+#. Text in echo
+#: Freehold/header.php:147
+msgid "to"
+msgstr ""

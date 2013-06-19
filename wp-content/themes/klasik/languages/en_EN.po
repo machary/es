@@ -1,0 +1,828 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: innova\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-09 10:28+0700\n"
+"PO-Revision-Date: 2012-11-09 10:30+0700\n"
+"Last-Translator: iyut <luthfi@klikmart.com>\n"
+"Language-Team: klasikthemes\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+
+#: 404.php:18
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr ""
+
+#: attachment.php:50
+#: page.php:44
+msgid "Read More"
+msgstr ""
+
+#: attachment.php:51
+#: page.php:45
+msgid "Pages:"
+msgstr ""
+
+#: attachment.php:65
+#: page.php:46
+msgid "Edit"
+msgstr ""
+
+#: author.php:55
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:41
+#: comments.php:59
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: comments.php:42
+#: comments.php:60
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:79
+msgid "Name"
+msgstr ""
+
+#: comments.php:81
+msgid "Email"
+msgstr ""
+
+#: comments.php:83
+msgid "Website"
+msgstr ""
+
+#: comments.php:86
+msgid "Post a Comment"
+msgstr ""
+
+#: comments.php:87
+msgid "Submit"
+msgstr ""
+
+#: header.php:72
+#: searchform.php:12
+msgid "Enter the keyword..."
+msgstr ""
+
+#: loop-pcategory.php:25
+#: loop.php:25
+msgid "Not Found"
+msgstr ""
+
+#: loop-pcategory.php:27
+#: loop.php:27
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr ""
+
+#: loop-pcategory.php:124
+#: loop.php:82
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: loop-pcategory.php:125
+#: loop.php:83
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: loop.php:64
+msgid "read more..."
+msgstr ""
+
+#: options.php:42
+msgid "Image logo"
+msgstr ""
+
+#: options.php:43
+msgid "Text-based logo"
+msgstr ""
+
+#: options.php:83
+msgid "Select The Category"
+msgstr ""
+
+#: options.php:110
+msgid "General"
+msgstr ""
+
+#: options.php:113
+msgid "Layout Settings"
+msgstr ""
+
+#: options.php:116
+msgid "Default Layout"
+msgstr ""
+
+#: options.php:117
+msgid "Select the default layout for your theme."
+msgstr ""
+
+#: options.php:127
+msgid " "
+msgstr ""
+
+#: options.php:130
+msgid "Header Settings"
+msgstr ""
+
+#: options.php:133
+msgid "Logo Type"
+msgstr ""
+
+#: options.php:134
+msgid "If text-based logo is activated, enter the sitename and tagline in the fields below."
+msgstr ""
+
+#: options.php:141
+msgid "Site name"
+msgstr ""
+
+#: options.php:142
+msgid "Put your sitename in here."
+msgstr ""
+
+#: options.php:147
+msgid "Tagline"
+msgstr ""
+
+#: options.php:148
+msgid "Put your tagline in here."
+msgstr ""
+
+#: options.php:153
+msgid "Logo Image"
+msgstr ""
+
+#: options.php:154
+msgid "If image logo is activated, upload the logo image."
+msgstr ""
+
+#: options.php:158
+msgid "Favicon"
+msgstr ""
+
+#: options.php:159
+msgid "Upload the favicon image."
+msgstr ""
+
+#: options.php:163
+msgid "Footer Settings"
+msgstr ""
+
+#: options.php:166
+msgid "Footer Text"
+msgstr ""
+
+#: options.php:167
+msgid "You can use html tag in here."
+msgstr ""
+
+#: options.php:172
+msgid "Tracking Code"
+msgstr ""
+
+#: options.php:173
+msgid "Enter your tracking code here."
+msgstr ""
+
+#: options.php:178
+msgid "Styles"
+msgstr ""
+
+#: options.php:181
+msgid "Color"
+msgstr ""
+
+#: options.php:182
+msgid "You can pick the color for your theme."
+msgstr ""
+
+#: options.php:187
+msgid "Theme Background"
+msgstr ""
+
+#: options.php:188
+msgid "You can set the background for your theme from here."
+msgstr ""
+
+#: options.php:193
+msgid "Social"
+msgstr ""
+
+#: options.php:197
+msgid "Social Icon"
+msgstr ""
+
+#: options.php:200
+msgid "Twitter URL"
+msgstr ""
+
+#: options.php:201
+msgid "Please input your twitter URL. Example : http://www.twitter.com/your-username"
+msgstr ""
+
+#: options.php:206
+msgid "Facebook URL"
+msgstr ""
+
+#: options.php:207
+msgid "Please input your facebook URL. Example : http://www.facebook.com/your-username"
+msgstr ""
+
+#: options.php:212
+msgid "Google+ URL"
+msgstr ""
+
+#: options.php:213
+msgid "Please input your google+ URL. Example : https://plus.google.com/u/0/110149804655622272330/posts"
+msgstr ""
+
+#: options.php:218
+msgid "Pinterest URL"
+msgstr ""
+
+#: options.php:219
+msgid "Please input your pinterest URL. Example : http://pinterest.com/your-username"
+msgstr ""
+
+#: options.php:224
+msgid "Social Icon Custom HTML"
+msgstr ""
+
+#: options.php:225
+msgid "If you want to put another Social Network URL, please input the HTML code in here. <br />For Example : &lt;li&gt;&lt;a href=&quot;http://yoururl.com/&quot;&gt;&lt;span class=&quot;icon-img&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;"
+msgstr ""
+
+#: options.php:230
+msgid "Slider"
+msgstr ""
+
+#: options.php:233
+msgid "Slider Interval"
+msgstr ""
+
+#: options.php:234
+msgid "Please enter number for slider interval. Default is 600"
+msgstr ""
+
+#: options.php:240
+msgid "Enable Slider Previous/Next Navigation"
+msgstr ""
+
+#: options.php:241
+msgid "Select this checkbox to enable previous/next navigation."
+msgstr ""
+
+#: options.php:246
+msgid "Portfolio"
+msgstr ""
+
+#: options.php:249
+msgid "Portfolio Category"
+msgstr ""
+
+#: options.php:250
+msgid "The value is category for display in portfolio page."
+msgstr ""
+
+#: options.php:257
+msgid "Disable Title"
+msgstr ""
+
+#: options.php:258
+msgid "Select this checkbox to disable title."
+msgstr ""
+
+#: options.php:263
+msgid "Enable Short Description"
+msgstr ""
+
+#: options.php:264
+msgid "Select this checkbox to enable short description."
+msgstr ""
+
+#: options.php:269
+msgid "Length Character"
+msgstr ""
+
+#: options.php:270
+msgid "Length description character"
+msgstr ""
+
+#: page-portfolio.php:46
+msgid "All Categories"
+msgstr ""
+
+#: title.php:24
+#, php-format
+msgid "Daily Archives <span>%s</span>"
+msgstr ""
+
+#: title.php:26
+#, php-format
+msgid "Monthly Archives <span>%s</span>"
+msgstr ""
+
+#: title.php:28
+#, php-format
+msgid "Yearly Archives <span>%s</span>"
+msgstr ""
+
+#: title.php:30
+#, php-format
+msgid "Author Archives %s"
+msgstr ""
+
+#: title.php:32
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: title.php:38
+#, php-format
+msgid "Search Results for %s"
+msgstr ""
+
+#: title.php:43
+msgid "404 Page"
+msgstr ""
+
+#: admin/options-framework.php:168
+#: admin/options-framework.php:169
+#: admin/options-framework.php:372
+msgid "Theme Options"
+msgstr ""
+
+#: admin/options-framework.php:243
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: admin/options-framework.php:275
+msgid "Default options restored."
+msgstr ""
+
+#: admin/options-framework.php:316
+msgid "Options saved."
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:128
+msgid "Upload"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:151
+msgid "View File"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:288
+msgid "Gallery"
+msgstr ""
+
+#: admin/options-medialibrary-uploader.php:288
+msgid "Previously Uploaded"
+msgstr ""
+
+#: admin/options-sanitize.php:218
+msgid "No Repeat"
+msgstr ""
+
+#: admin/options-sanitize.php:219
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: admin/options-sanitize.php:220
+msgid "Repeat Vertically"
+msgstr ""
+
+#: admin/options-sanitize.php:221
+msgid "Repeat All"
+msgstr ""
+
+#: admin/options-sanitize.php:234
+msgid "Top Left"
+msgstr ""
+
+#: admin/options-sanitize.php:235
+msgid "Top Center"
+msgstr ""
+
+#: admin/options-sanitize.php:236
+msgid "Top Right"
+msgstr ""
+
+#: admin/options-sanitize.php:237
+msgid "Middle Left"
+msgstr ""
+
+#: admin/options-sanitize.php:238
+msgid "Middle Center"
+msgstr ""
+
+#: admin/options-sanitize.php:239
+msgid "Middle Right"
+msgstr ""
+
+#: admin/options-sanitize.php:240
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/options-sanitize.php:241
+msgid "Bottom Center"
+msgstr ""
+
+#: admin/options-sanitize.php:242
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/options-sanitize.php:255
+msgid "Scroll Normally"
+msgstr ""
+
+#: admin/options-sanitize.php:256
+msgid "Fixed in Place"
+msgstr ""
+
+#: admin/options-sanitize.php:330
+msgid "Normal"
+msgstr ""
+
+#: admin/options-sanitize.php:331
+msgid "Italic"
+msgstr ""
+
+#: admin/options-sanitize.php:332
+msgid "Bold"
+msgstr ""
+
+#: admin/options-sanitize.php:333
+msgid "Bold Italic"
+msgstr ""
+
+#: includes/footer-function.php:38
+msgid "Copyright"
+msgstr ""
+
+#: includes/footer-function.php:54
+msgid " Design by"
+msgstr ""
+
+#: includes/footer-function.php:54
+msgid "http://klasikthemes.com"
+msgstr ""
+
+#: includes/footer-function.php:55
+msgid "klasikthemes.com"
+msgstr ""
+
+#: includes/header-function.php:22
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/header-function.php:116
+#: includes/header-function.php:118
+#: includes/theme-function.php:162
+msgid "Click for Home"
+msgstr ""
+
+#: includes/metaboxes.php:24
+msgid "Page Settings"
+msgstr ""
+
+#: includes/metaboxes.php:31
+msgid "Set as Featured?"
+msgstr ""
+
+#: includes/metaboxes.php:32
+msgid "Check this box  to show this page in the featured page widget"
+msgstr ""
+
+#: includes/metaboxes.php:38
+msgid "Page Icon"
+msgstr ""
+
+#: includes/metaboxes.php:39
+msgid "Enter an URL to your icon. This icon will displayed at featured page widget and page title."
+msgstr ""
+
+#: includes/metaboxes.php:45
+#: includes/metaboxes.php:85
+#: includes/metaboxes.php:143
+msgid "Layout"
+msgstr ""
+
+#: includes/metaboxes.php:46
+#: includes/metaboxes.php:86
+#: includes/metaboxes.php:144
+msgid "Select the layout you want on this specific post/page. Overrides default site layout."
+msgstr ""
+
+#: includes/metaboxes.php:57
+msgid "Portfolio Item Settings"
+msgstr ""
+
+#: includes/metaboxes.php:64
+#: includes/metaboxes.php:136
+msgid "Thumb"
+msgstr ""
+
+#: includes/metaboxes.php:65
+msgid ": Enter an URL to your portfolio thumbnail image. Will show instead of Featured Image."
+msgstr ""
+
+#: includes/metaboxes.php:71
+msgid "Lightbox"
+msgstr ""
+
+#: includes/metaboxes.php:72
+msgid "Enter an optional URL to your portfolio image or video to show in the PrettyPhoto Lightbox for this portfolio item."
+msgstr ""
+
+#: includes/metaboxes.php:78
+#: includes/metaboxes.php:118
+msgid "Link"
+msgstr ""
+
+#: includes/metaboxes.php:79
+msgid ": Enter an optional URL if you want to redirect this portfolio item to another site."
+msgstr ""
+
+#: includes/metaboxes.php:97
+msgid "Slider Item Settings"
+msgstr ""
+
+#: includes/metaboxes.php:104
+msgid "Slider Image"
+msgstr ""
+
+#: includes/metaboxes.php:105
+msgid "Enter an URL to your slider images. Will show instead of Featured Image."
+msgstr ""
+
+#: includes/metaboxes.php:111
+msgid "Embed Video Code"
+msgstr ""
+
+#: includes/metaboxes.php:112
+msgid "Enter the video embed code for your video (Youtube, Vimeo or similar). Will show instead of your image."
+msgstr ""
+
+#: includes/metaboxes.php:119
+msgid "Enter URL if you want to add link to the slider. (optional)"
+msgstr ""
+
+#: includes/metaboxes.php:129
+msgid "Post Settings"
+msgstr ""
+
+#: includes/metaboxes.php:137
+msgid "Enter an URL to your post thumbnail image. Will show instead of Featured Image."
+msgstr ""
+
+#: includes/sidebar-init.php:7
+#: includes/sidebar-init.php:27
+msgid "Located at the upper content."
+msgstr ""
+
+#: includes/sidebar-init.php:15
+msgid "Home Highlight"
+msgstr ""
+
+#: includes/sidebar-init.php:17
+msgid "Located at the upper content and below slider."
+msgstr ""
+
+#: includes/sidebar-init.php:25
+msgid "Before Content Sidebar"
+msgstr ""
+
+#: includes/sidebar-init.php:35
+msgid "Post Sidebar"
+msgstr ""
+
+#: includes/sidebar-init.php:37
+msgid "Located at the left/right side of archives, single and search."
+msgstr ""
+
+#: includes/sidebar-init.php:45
+msgid "Footer1 Sidebar"
+msgstr ""
+
+#: includes/sidebar-init.php:47
+msgid "Located at the footer column 1."
+msgstr ""
+
+#: includes/sidebar-init.php:55
+msgid "Footer2 Sidebar"
+msgstr ""
+
+#: includes/sidebar-init.php:57
+msgid "Located at the footer column 2."
+msgstr ""
+
+#: includes/sidebar-init.php:65
+msgid "Footer3 Sidebar"
+msgstr ""
+
+#: includes/sidebar-init.php:67
+msgid "Located at the footer column 3."
+msgstr ""
+
+#: includes/sidebar-init.php:75
+msgid "Footer4 Sidebar"
+msgstr ""
+
+#: includes/sidebar-init.php:77
+msgid "Located at the footer column 4."
+msgstr ""
+
+#: includes/theme-function.php:58
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: includes/theme-function.php:62
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/theme-function.php:63
+msgid "/&nbsp;Edit"
+msgstr ""
+
+#: includes/theme-function.php:68
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/theme-function.php:82
+msgid "Pingback:"
+msgstr ""
+
+#: includes/theme-function.php:82
+msgid "(Edit)"
+msgstr ""
+
+#: includes/theme-function.php:142
+#, php-format
+msgid "Categories: %1$s <br/> Tags: %2$s"
+msgstr ""
+
+#: includes/theme-function.php:144
+#, php-format
+msgid "Categories: %1$s"
+msgstr ""
+
+#: includes/theme-function.php:162
+msgid "Home"
+msgstr ""
+
+#: includes/theme-init.php:26
+msgid "Main Menu"
+msgstr ""
+
+#: includes/theme-init.php:56
+msgid "Portfolio Categories"
+msgstr ""
+
+#: includes/theme-init.php:87
+msgid "Slider Categories"
+msgstr ""
+
+#: includes/widgets/klasik-features.php:7
+msgid "Klasik - Features"
+msgstr ""
+
+#: includes/widgets/klasik-features.php:8
+msgid "Klasik - Featured Pages"
+msgstr ""
+
+#: includes/widgets/klasik-features.php:15
+msgid "Klasik Featured Pages"
+msgstr ""
+
+#: includes/widgets/klasik-features.php:71
+#: includes/widgets/klasik-portfolio-carousel.php:109
+msgid "Permanent Link to"
+msgstr ""
+
+#: includes/widgets/klasik-features.php:111
+#: includes/widgets/klasik-highlight.php:51
+#: includes/widgets/klasik-portfolio-carousel.php:156
+#: includes/widgets/klasik-recent-posts.php:97
+#: includes/widgets/klasik-slider.php:111
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/klasik-features.php:113
+#: includes/widgets/klasik-portfolio-carousel.php:158
+msgid "Caption:"
+msgstr ""
+
+#: includes/widgets/klasik-features.php:115
+#: includes/widgets/klasik-highlight.php:60
+#: includes/widgets/klasik-portfolio-carousel.php:179
+msgid "Show Separator:"
+msgstr ""
+
+#: includes/widgets/klasik-highlight.php:7
+#: includes/widgets/klasik-highlight.php:8
+#: includes/widgets/klasik-highlight.php:15
+msgid "Klasik - Highlight"
+msgstr ""
+
+#: includes/widgets/klasik-highlight.php:53
+msgid "Description:"
+msgstr ""
+
+#: includes/widgets/klasik-highlight.php:56
+msgid "Button Text:"
+msgstr ""
+
+#: includes/widgets/klasik-highlight.php:58
+msgid "URL:"
+msgstr ""
+
+#: includes/widgets/klasik-portfolio-carousel.php:7
+#: includes/widgets/klasik-portfolio-carousel.php:8
+msgid "Klasik - Portfolio Carousel"
+msgstr ""
+
+#: includes/widgets/klasik-portfolio-carousel.php:15
+msgid "Klasik Portfolio Carousel"
+msgstr ""
+
+#: includes/widgets/klasik-portfolio-carousel.php:160
+#: includes/widgets/klasik-recent-posts.php:99
+#: includes/widgets/klasik-slider.php:120
+msgid "Category:"
+msgstr ""
+
+#: includes/widgets/klasik-portfolio-carousel.php:172
+#: includes/widgets/klasik-recent-posts.php:110
+msgid "Number of Post:"
+msgstr ""
+
+#: includes/widgets/klasik-portfolio-carousel.php:174
+msgid "Show Text:"
+msgstr ""
+
+#: includes/widgets/klasik-recent-comment.php:6
+#: includes/widgets/klasik-recent-comment.php:7
+msgid "Klasik - Recent Comments"
+msgstr ""
+
+#: includes/widgets/klasik-recent-comment.php:14
+msgid "Klasik Recent Comments"
+msgstr ""
+
+#: includes/widgets/klasik-recent-posts.php:7
+#: includes/widgets/klasik-recent-posts.php:8
+msgid "Klasik - Recent Posts"
+msgstr ""
+
+#: includes/widgets/klasik-recent-posts.php:15
+msgid "Klasik Recent Posts"
+msgstr ""
+
+#: includes/widgets/klasik-recent-posts.php:113
+msgid "Disable Thumb:"
+msgstr ""
+
+#: includes/widgets/klasik-recent-posts.php:118
+msgid "Disable Date:"
+msgstr ""
+
+#: includes/widgets/klasik-slider.php:7
+#: includes/widgets/klasik-slider.php:8
+#: includes/widgets/klasik-slider.php:15
+msgid "Klasik - Slider"
+msgstr ""
+
+#: includes/widgets/klasik-slider.php:113
+msgid "Arrange:"
+msgstr ""
+
+#: includes/widgets/klasik-slider.php:132
+msgid "Disable Text:"
+msgstr ""
+
+#: includes/widgets/klasik-slider.php:136
+msgid "Disable Link:"
+msgstr ""
+
