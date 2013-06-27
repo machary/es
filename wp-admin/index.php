@@ -31,10 +31,12 @@ if ( wp_is_mobile() )
 $title = __('Dashboard');
 $parent_file = 'index.php';
 
+/*
 if ( is_user_admin() )
 	add_screen_option('layout_columns', array('max' => 4, 'default' => 1) );
 else
 	add_screen_option('layout_columns', array('max' => 4, 'default' => 2) );
+*/
 
 $help = '<p>' . __( 'Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab in the upper corner.' ) . '</p>';
 
@@ -110,21 +112,24 @@ $today = current_time('mysql', 1);
 <?php screen_icon(); ?>
 <h2><?php echo esc_html( $title ); ?></h2>
 
-<?php if ( has_action( 'welcome_panel' ) && current_user_can( 'edit_theme_options' ) ) :
-	$classes = 'welcome-panel';
+<?php
+//    if ( has_action( 'welcome_panel' ) && current_user_can( 'edit_theme_options' ) ) :
+//	$classes = 'welcome-panel';
+//
+//	$option = get_user_meta( get_current_user_id(), 'show_welcome_panel', true );
+//	// 0 = hide, 1 = toggled to show or single site creator, 2 = multisite site owner
+//
+//	$hide = 0 == $option || ( 2 == $option && wp_get_current_user()->user_email != get_option( 'admin_email' ) );
+//
+//	if ( $hide )
+//		$classes .= ' hidden'; ?>
 
-	$option = get_user_meta( get_current_user_id(), 'show_welcome_panel', true );
-	// 0 = hide, 1 = toggled to show or single site creator, 2 = multisite site owner
-	$hide = 0 == $option || ( 2 == $option && wp_get_current_user()->user_email != get_option( 'admin_email' ) );
-	if ( $hide )
-		$classes .= ' hidden'; ?>
-
- 	<div id="welcome-panel" class="<?php echo esc_attr( $classes ); ?>">
- 		<?php wp_nonce_field( 'welcome-panel-nonce', 'welcomepanelnonce', false ); ?>
-		<a class="welcome-panel-close" href="<?php echo esc_url( admin_url( '?welcome=0' ) ); ?>"><?php _e( 'Dismiss' ); ?></a>
-		<?php do_action( 'welcome_panel' ); ?>
-	</div>
-<?php endif; ?>
+ 	<!--<div id="welcome-panel" class="<?php // echo esc_attr( $classes ); ?>">
+ 		<?php // wp_nonce_field( 'welcome-panel-nonce', 'welcomepanelnonce', false ); ?>
+		<a class="welcome-panel-close" href="<?php // echo esc_url( admin_url( '?welcome=0' ) ); ?>"><?php // _e( 'Dismiss' ); ?></a>
+		<?php // do_action( 'welcome_panel' ); ?>
+	</div> -->
+<?php // endif; ?>
 
 <div id="dashboard-widgets-wrap">
 
