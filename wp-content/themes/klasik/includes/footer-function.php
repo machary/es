@@ -91,8 +91,7 @@ if(!function_exists("klasik_footer_text")){
 				echo $copyright;
 				echo '<a href="'.home_url( '/').'">'.get_bloginfo('name') .'.</a>';
 			}
-			?><?php _e(' Designed by', 'klasik'); ?>	<a href="<?php echo esc_url( __( 'http://www.klasikthemes.com', 'klasik' ) ); ?>" title="">
-			<?php _e('Klasik Themes','')?></a>.
+			?>
             
             
         <?php 

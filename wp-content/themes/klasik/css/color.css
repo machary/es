@@ -97,9 +97,8 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	background: #505050; /* for non-css3 browsers */
-	background: -webkit-gradient(linear, left top, left bottom, from(#6b6b6b), to(#505050)); /* for webkit browsers */
-	background: -moz-linear-gradient(top,  #6b6b6b,  #505050); /* for firefox 3.6+ */
-	border:solid 1px #454545;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7C7FD6), to(#393C91)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #7C7FD6,  #393C91); /* for firefox 3.6+ */
 	color:#fff;
 	
 }

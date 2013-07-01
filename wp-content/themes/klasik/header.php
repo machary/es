@@ -96,8 +96,21 @@ wp_head();
                 </div>
                 <div class="clear"></div>
             </div>
+            <!-- Main Search -->
+            <div id="main-search-form">
+                <form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <div class="searcharea">
+                        <input type="text" name="s" id="s" value="<?php _e('Ketik Kata Kunci...','klasik');?>" onfocus="if (this.value == '<?php _e('Ketik Kata Kunci...','klasik');?>')this.value = '';" onblur="if (this.value == '')this.value = '<?php _e('Ketik Kata Kunci...','klasik');?>';" />
+                        <input type="submit" class="searchbutton" value="Cari" />
+                    </div>
+                </form>
+            </div>
+
+            <!-- End of Main search -->
 		</div>
         <!-- END HEADER -->
+
+
 
 		<!-- AFTERHEADER -->
         <?php
@@ -139,17 +152,7 @@ wp_head();
 		?>
         <!-- END AFTERHEADER -->
 
-<!-- Main Search -->
-<div id="main-search-form">
-    <form method="get" id="searchform" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-        <div class="searcharea">
-            <input type="text" name="s" id="s" value="<?php _e('Enter the keyword...','klasik');?>" onfocus="if (this.value == '<?php _e('Enter the keyword...','klasik');?>')this.value = '';" onblur="if (this.value == '')this.value = '<?php _e('Enter the keyword...','klasik');?>';" />
-            <input type="submit" class="searchbutton" value="Cari" />
-        </div>
-    </form>
-</div>
 
-<!-- End of Main search -->
 
         <!-- MAIN CONTENT -->
         <div id="outermain" class="<?php echo $outermainclass; ?>">

@@ -50,7 +50,7 @@
                     <div class="row"> 
                     
                         <footer id="footersidebar">
-                            <div id="footcol1"  class="three columns">
+                            <div id="footcol1"  class="seven columns">
                                 <div class="widget-area">
                                     <?php 
 									$widgetargs = array( 
@@ -62,24 +62,10 @@
 									
 									if ( ! dynamic_sidebar( 'footer1' ) ){
 										$instances = array(
-											'title' => __('About Us','klasik'),
+											'title' => __('Tentang Wahana Pendidikan','klasik'),
 											'text' => '<p>Ut non nulla mi, eget imperdiet sem. Nam lacus ligula, venenatis vel aliquet eu, venenatis congue magna. Sed rutrum faucibus semper.</p>'
 										);
 										the_widget('WP_Widget_Text',$instances, $widgetargs);
-									}// end general widget area 
-									?>
-                                </div>
-                            </div>
-                            <div id="footcol2"  class="three columns">
-                                 <div class="widget-area">
-                                 	<?php 
-									if ( ! dynamic_sidebar( 'footer2' ) ){
-										
-										$instances = array(
-											'title' => __('Recent Comments','klasik'),
-											'number'=> 5
-										);
-										the_widget('WP_Widget_Recent_Comments',$instances, $widgetargs);
 									}// end general widget area 
 									?>
                                 </div>
@@ -90,23 +76,10 @@
 									if ( ! dynamic_sidebar( 'footer3' ) ){
 										
 										$instances = array(
-											'title' => __('Recent Posts','klasik'),
+											'title' => __('Artikel Terkini','klasik'),
 											'number'=> 5
 										);
 										the_widget('WP_Widget_Recent_Posts',$instances, $widgetargs);
-									}// end general widget area 
-									?>
-                                </div>
-                            </div>
-                            <div id="footcol4"  class="three columns">
-                                 <div class="widget-area">
-                                 	<?php 
-									if ( ! dynamic_sidebar( 'footer4' ) ){
-										
-										$instances = array(
-											'title' => __('Meta','klasik')
-										);
-										the_widget('WP_Widget_Meta',$instances, $widgetargs);
 									}// end general widget area 
 									?>
                                 </div>

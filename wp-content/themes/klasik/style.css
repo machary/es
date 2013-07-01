@@ -840,10 +840,10 @@ a.comment-edit-link:hover {
     border-radius: 7px 7px 7px 7px;
     color: #999999;
     font-size: 20px;
-    padding: 24px;
+    padding: 15px;
     margin-right: 10px;
     margin-bottom: 10px;
-    width:60%;
+    width:78%;
     float:left;
 }
 .searchbutton {
@@ -851,7 +851,7 @@ a.comment-edit-link:hover {
     border-radius: 7px 7px 7px 7px;
     color: #FFFFFF !important;
     font-size: 20px;
-    height: 75px;
+    height: 58px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
     width: 180px;
 
