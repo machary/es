@@ -988,3 +988,11 @@ Masmek
     padding: 20px 9%;
     text-align: center;
 }
+
+
+div.featured-container>div.row>div>div{
+    background-color: #FFEDB7;
+    padding:15px;
+    min-height: 170px;
+    border-radius: 3px 3px 3px 3px;
+}
