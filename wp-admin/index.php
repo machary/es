@@ -38,7 +38,7 @@ else
 	add_screen_option('layout_columns', array('max' => 4, 'default' => 2) );
 */
 
-$help = '<p>' . __( 'Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab in the upper corner.' ) . '</p>';
+$help = '<p>' . __( 'Welcome to your Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features. You can get help for any screen by clicking the Help tab in the upper corner.' ) . '</p>';
 
 // Not using chaining here, so as to be parseable by PHP4.
 $screen = get_current_screen();
@@ -51,8 +51,8 @@ $screen->add_help_tab( array(
 
 // Help tabs
 
-$help  = '<p>' . __('The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.') . '</p>';
-$help .= '<p>' . __('Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful WordPress information.') . '</p>';
+$help  = '<p>' . __('The left-hand navigation menu provides links to all of the administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.') . '</p>';
+$help .= '<p>' . __('Links in the Toolbar at the top of the screen connect your dashboard and the front end of your site, and provide access to your profile and helpful information.') . '</p>';
 
 $screen->add_help_tab( array(
 	'id'      => 'help-navigation',
@@ -82,8 +82,8 @@ if ( current_user_can( get_post_type_object( 'post' )->cap->create_posts ) ) {
 	$help .= '<p>' . __('<strong>QuickPress</strong> - Allows you to create a new post and either publish it or save it as a draft.') . '</p>';
 	$help .= '<p>' . __('<strong>Recent Drafts</strong> - Displays links to the 5 most recent draft posts you&#8217;ve started.') . '</p>';
 }
-$help .= '<p>' . __('<strong>WordPress Blog</strong> - Latest news from the official WordPress project.') . '</p>';
-$help .= '<p>' . __('<strong>Other WordPress News</strong> - Shows the <a href="http://planet.wordpress.org" target="_blank">WordPress Planet</a> feed. You can configure it to show a different feed of your choosing.') . '</p>';
+$help .= '<p>' . __('<strong>Blog</strong> - Latest news from the official project.') . '</p>';
+$help .= '<p>' . __('<strong>Other News</strong> - Shows the <a href="http://planet.wordpress.org" target="_blank">WordPress Planet</a> feed. You can configure it to show a different feed of your choosing.') . '</p>';
 if ( ! is_multisite() && current_user_can( 'install_plugins' ) )
 	$help .= '<p>' . __('<strong>Plugins</strong> - Features the most popular, newest, and recently updated plugins from the WordPress.org Plugin Directory.') . '</p>';
 if ( current_user_can( 'edit_theme_options' ) )

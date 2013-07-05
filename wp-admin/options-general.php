@@ -102,7 +102,7 @@ include('./admin-header.php');
 </tr>
 <?php if ( !is_multisite() ) { ?>
 <tr valign="top">
-<th scope="row"><label for="siteurl"><?php _e('WordPress Address (URL)') ?></label></th>
+<th scope="row"><label for="siteurl"><?php _e('Application Address (URL)') ?></label></th>
 <td><input name="siteurl" type="text" id="siteurl" value="<?php form_option('siteurl'); ?>"<?php disabled( defined( 'WP_SITEURL' ) ); ?> class="regular-text code<?php if ( defined( 'WP_SITEURL' ) ) echo ' disabled' ?>" /></td>
 </tr>
 <tr valign="top">

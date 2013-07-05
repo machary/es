@@ -399,7 +399,7 @@ if ( ( 'do-theme-upgrade' == $action || ( 'do-plugin-upgrade' == $action && ! is
 	$action = 'upgrade-core';
 }
 
-$title = __('WordPress Updates');
+$title = __('Updates');
 $parent_file = 'tools.php';
 
 get_current_screen()->add_help_tab( array(
@@ -431,7 +431,7 @@ if ( 'upgrade-core' == $action ) {
 	?>
 	<div class="wrap">
 	<?php screen_icon('tools'); ?>
-	<h2><?php _e('WordPress Updates'); ?></h2>
+	<h2><?php _e('Updates'); ?></h2>
 	<?php
 	if ( $upgrade_error ) {
 		echo '<div class="error"><p>';
@@ -449,7 +449,7 @@ if ( 'upgrade-core' == $action ) {
 	echo '</p>';
 
 	if ( current_user_can( 'update_core' ) )
-		core_upgrade_preamble();
+		//core_upgrade_preamble();
 	if ( current_user_can( 'update_plugins' ) )
 		list_plugin_updates();
 	if ( current_user_can( 'update_themes' ) )

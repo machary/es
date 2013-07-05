@@ -50,7 +50,7 @@
                     <div class="row"> 
                     
                         <footer id="footersidebar">
-                            <div id="footcol1"  class="seven columns">
+                            <div id="footcol1"  class="five columns">
                                 <div class="widget-area">
                                     <?php 
 									$widgetargs = array( 
@@ -63,20 +63,22 @@
 									if ( ! dynamic_sidebar( 'footer1' ) ){
 										$instances = array(
 											'title' => __('Tentang Wahana Pendidikan','klasik'),
-											'text' => '<p>Ut non nulla mi, eget imperdiet sem. Nam lacus ligula, venenatis vel aliquet eu, venenatis congue magna. Sed rutrum faucibus semper.</p>'
+											'text' => '<p>
+											Aplikasi ini dirancang untuk memecahkan permasalahan yang kompleks dengan penalaran pengetahuan yang dimiliki oleh para ahli Transportasi jalan dan menciptakan kondisi transportasi yang ideal di setiap Kota/ Kabupaten seluruh Indonesia.
+											</p>'
 										);
 										the_widget('WP_Widget_Text',$instances, $widgetargs);
 									}// end general widget area 
 									?>
                                 </div>
                             </div>
-                            <div id="footcol3"  class="three columns">
+                            <div id="footcol3"  class="seven columns">
                                  <div class="widget-area">
                                  	<?php 
 									if ( ! dynamic_sidebar( 'footer3' ) ){
 										
 										$instances = array(
-											'title' => __('Artikel Terkini','klasik'),
+											'title' => __('Jawaban Terkini','klasik'),
 											'number'=> 5
 										);
 										the_widget('WP_Widget_Recent_Posts',$instances, $widgetargs);

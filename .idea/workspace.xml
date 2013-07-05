@@ -20,19 +20,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin-bar.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-includes/admin-bar.php">
+      <file leaf-file-name="admin-footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-admin/admin-footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="192" column="35" selection-start="5189" selection-end="5189" vertical-scroll-proportion="0.84437084">
+            <state line="30" column="17" selection-start="903" selection-end="903" vertical-scroll-proportion="-16.346153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="60" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.103975534">
               <folding>
-                <element signature="n#wp_admin_bar_render#0;n#!!top" expanded="false" />
-                <element signature="n#wp_admin_bar_wp_menu#0;n#!!top" expanded="false" />
-                <element signature="n#wp_admin_bar_site_menu#0;n#!!top" expanded="false" />
-                <element signature="n#wp_admin_bar_updates_menu#0;n#!!top" expanded="false" />
-                <element signature="n#wp_admin_bar_search_menu#0;n#!!top" expanded="false" />
-                <element signature="n#wp_admin_bar_add_secondary_groups#0;n#!!top" expanded="false" />
-                <element signature="n#is_admin_bar_showing#0;n#!!top" expanded="false" />
-                <element signature="n#_get_admin_bar_pref#0;n#!!top" expanded="false" />
+                <element signature="tag#div#0;tag#footer#0;tag#div#0;tag#div#0;tag#div#0;tag#div#3" expanded="false" />
+                <marker date="1373006669453" expanded="true" signature="2615:2879" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -48,13 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wp-admin/admin-footer.php" />
-        <option value="$PROJECT_DIR$/wp-admin/includes/dashboard.php" />
-        <option value="$PROJECT_DIR$/wp-admin/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/klasik/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/klasik/includes/footer-function.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/klasik/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/klasik/css/general.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/klasik/css/color.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/klasik/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/klasik/title.php" />
@@ -64,6 +60,13 @@
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-includes/plugin.php" />
         <option value="$PROJECT_DIR$/wp-includes/admin-bar.php" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/update.php" />
+        <option value="$PROJECT_DIR$/wp-admin/index.php" />
+        <option value="$PROJECT_DIR$/wp-admin/includes/update-core.php" />
+        <option value="$PROJECT_DIR$/wp-admin/menu-header.php" />
+        <option value="$PROJECT_DIR$/wp-admin/update-core.php" />
+        <option value="$PROJECT_DIR$/wp-admin/options-general.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/klasik/footer.php" />
       </list>
     </option>
   </component>
@@ -135,7 +138,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-includes" />
+              <option name="myItemId" value="wp-admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -148,7 +151,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../armada" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
@@ -180,7 +183,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18409091" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18712121" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -247,64 +250,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/includes/footer-function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="14" selection-start="2442" selection-end="2442" vertical-scroll-proportion="1.1637765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="68" selection-start="4025" selection-end="4025" vertical-scroll-proportion="1.5384616" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="39" selection-start="4106" selection-end="4106" vertical-scroll-proportion="0.0327553" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/css/general.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="658" column="0" selection-start="18364" selection-end="18364" vertical-scroll-proportion="0.8440367" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/css/color.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="745" selection-end="745" vertical-scroll-proportion="0.03119266" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/soliloquy-lite/css/soliloquy.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="50" selection-start="272" selection-end="291" vertical-scroll-proportion="-6.8" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="82" selection-start="4906" selection-end="4906" vertical-scroll-proportion="0.048158642" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="290" selection-end="290" vertical-scroll-proportion="0.6">
-          <folding>
-            <element signature="e#6#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/title.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="386" selection-end="386" vertical-scroll-proportion="-4.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/loop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="875" selection-end="875" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/admin-header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="2" selection-start="1172" selection-end="1172" vertical-scroll-proportion="-2.9607842">
@@ -333,18 +278,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="486" column="16" selection-start="16325" selection-end="16325" vertical-scroll-proportion="0.051987767">
-          <folding>
-            <element signature="e#6#776#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/admin-bar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="35" selection-start="5189" selection-end="5189" vertical-scroll-proportion="0.84437084">
+        <state line="183" column="32" selection-start="4989" selection-end="4989" vertical-scroll-proportion="0.33774835">
           <folding>
             <element signature="n#wp_admin_bar_render#0;n#!!top" expanded="false" />
             <element signature="n#wp_admin_bar_wp_menu#0;n#!!top" expanded="false" />
@@ -354,6 +290,106 @@
             <element signature="n#wp_admin_bar_add_secondary_groups#0;n#!!top" expanded="false" />
             <element signature="n#is_admin_bar_showing#0;n#!!top" expanded="false" />
             <element signature="n#_get_admin_bar_pref#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="307" column="46" selection-start="11691" selection-end="11691" vertical-scroll-proportion="1.119266">
+          <folding>
+            <element signature="e#153#271#0" expanded="false" />
+            <element signature="n#get_preferred_from_update_core#0;n#!!top" expanded="false" />
+            <element signature="e#492#738#0" expanded="false" />
+            <element signature="n#get_core_updates#0;n#!!top" expanded="false" />
+            <element signature="n#dismiss_core_update#0;n#!!top" expanded="false" />
+            <element signature="n#undismiss_core_update#0;n#!!top" expanded="false" />
+            <element signature="n#find_core_update#0;n#!!top" expanded="false" />
+            <element signature="n#core_update_footer#0;n#!!top" expanded="false" />
+            <element signature="n#update_right_now_message#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="-0.56953645">
+          <folding>
+            <element signature="e#6#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="21" selection-start="339" selection-end="339" vertical-scroll-proportion="0.4678899">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/update-core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="779" column="4" selection-start="30294" selection-end="30294" vertical-scroll-proportion="0.89602447">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/menu-header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="41" selection-start="2356" selection-end="2356" vertical-scroll-proportion="0.66225165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/options-general.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="58" selection-start="4480" selection-end="4480" vertical-scroll-proportion="0.33112583">
+          <folding>
+            <element signature="e#6#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/update-core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="401" column="8" selection-start="17530" selection-end="17538" vertical-scroll-proportion="0.33112583">
+          <folding>
+            <element signature="e#6#105#0" expanded="true" />
+            <marker date="1373004813501" expanded="false" signature="21712:21757" placeholder="..." />
+            <marker date="1373004813501" expanded="false" signature="22668:22713" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="368" column="28" selection-start="13301" selection-end="13301" vertical-scroll-proportion="-0.21406728">
+          <folding>
+            <element signature="e#6#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/admin-footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="17" selection-start="903" selection-end="903" vertical-scroll-proportion="-16.346153">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="60" selection-start="3143" selection-end="3143" vertical-scroll-proportion="0.103975534">
+          <folding>
+            <element signature="tag#div#0;tag#footer#0;tag#div#0;tag#div#0;tag#div#0;tag#div#3" expanded="false" />
+            <marker date="1373006669453" expanded="true" signature="2615:2879" placeholder="..." />
           </folding>
         </state>
       </provider>
