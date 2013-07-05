@@ -32,7 +32,7 @@ if(is_singular('pdetail') || is_attachment()){
 	
 }elseif(is_search()){
 	echo '<h1 class="pagetitle nodesc">';
-	printf( __( 'Search Results for %s', 'klasik' ), '<span>' . get_search_query() . '</span>' );
+	printf( __( 'Hasil Pencarian : %s', 'klasik' ), '<span style="font-weight:bold;">' . get_search_query() . '</span>' );
 	echo '</h1>';
 	
 }elseif(is_404()){

@@ -30,7 +30,7 @@ h5	{font-size:14px;}
 h6	{font-size:13px;}
 h1, h2, h3, h4, h5, h6{ font-weight:normal; line-height:normal; font-family: 'Open Sans', Arial, sans-serif; }
 
-.pagetitle{font-size:38px; line-height:110%; margin-bottom:0px; margin-right:10px; float:left;  }
+.pagetitle{font-size:28px; line-height:110%; margin-bottom:0px; margin-right:10px; float:left;  }
 .pagedesc { line-height:18px; font-size:11px;}
 
 
@@ -219,13 +219,13 @@ ul.sf-menu li li li.sfHover ul {
 
 /* AFTERHEADER
 -------------------------------------------------------------- */
-#afterheader{position:relative; padding-top:24px; padding-bottom:30px; margin-bottom:0px;}
+#afterheader{position:relative; padding-top:10px; padding-bottom:15px; margin-bottom:0px;}
 #afterheader h1{ margin-bottom:0px;}
 
 /* CONTENT
 -------------------------------------------------------------- */
 #outermain{padding:60px 0 35px 0; border-width:1px 0px 0px 0px; border-style:solid;}
-#outermain.inner{padding:60px 0px;}
+#outermain.inner{padding:20px 0px;}
 #outermain .container{}
 #maincontent{}
 #content{float:left;}
@@ -995,4 +995,8 @@ div.featured-container>div.row>div>div{
     padding:15px;
     min-height: 170px;
     border-radius: 3px 3px 3px 3px;
+}
+
+.soliloquy-container {
+    margin-bottom:30px !important;
 }

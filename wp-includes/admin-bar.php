@@ -72,6 +72,7 @@ add_action( 'in_admin_header', 'wp_admin_bar_render', 0 );
  * @since 3.3.0
  */
 function wp_admin_bar_wp_menu( $wp_admin_bar ) {
+    /*
 	$wp_admin_bar->add_menu( array(
 		'id'    => 'wp-logo',
 		'title' => '<span class="ab-icon"></span>',
@@ -122,6 +123,7 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 		'title'     => __('Feedback'),
 		'href'      => __('http://wordpress.org/support/forum/requests-and-feedback'),
 	) );
+    */
 }
 
 /**
@@ -138,7 +140,7 @@ function wp_admin_bar_my_account_item( $wp_admin_bar ) {
 		return;
 
 	$avatar = get_avatar( $user_id, 16 );
-	$howdy  = sprintf( __('Howdy, %1$s'), $current_user->display_name );
+	$howdy  = sprintf( __('Selamat Datang, %1$s'), $current_user->display_name );
 	$class  = empty( $avatar ) ? '' : 'with-avatar';
 
 	$wp_admin_bar->add_menu( array(
@@ -189,7 +191,7 @@ function wp_admin_bar_my_account_menu( $wp_admin_bar ) {
 	$wp_admin_bar->add_menu( array(
 		'parent' => 'user-actions',
 		'id'     => 'edit-profile',
-		'title'  => __( 'Edit My Profile' ),
+		'title'  => __( 'Ubah Profil Saya' ),
 		'href' => $profile_url,
 	) );
 	$wp_admin_bar->add_menu( array(
@@ -420,6 +422,7 @@ function wp_admin_bar_shortlink_menu( $wp_admin_bar ) {
  * @since 3.1.0
  */
 function wp_admin_bar_edit_menu( $wp_admin_bar ) {
+/*
 	global $tag, $wp_the_query;
 
 	if ( is_admin() ) {
@@ -477,6 +480,7 @@ function wp_admin_bar_edit_menu( $wp_admin_bar ) {
 			) );
 		}
 	}
+*/
 }
 
 /**
@@ -485,6 +489,7 @@ function wp_admin_bar_edit_menu( $wp_admin_bar ) {
  * @since 3.1.0
  */
 function wp_admin_bar_new_content_menu( $wp_admin_bar ) {
+    /*
 	$actions = array();
 
 	$cpts = (array) get_post_types( array( 'show_in_admin_bar' => true ), 'objects' );
@@ -542,6 +547,7 @@ function wp_admin_bar_new_content_menu( $wp_admin_bar ) {
 			'href'      => admin_url( $link )
 		) );
 	}
+    */
 }
 
 /**
@@ -550,6 +556,7 @@ function wp_admin_bar_new_content_menu( $wp_admin_bar ) {
  * @since 3.1.0
  */
 function wp_admin_bar_comments_menu( $wp_admin_bar ) {
+    /*
 	if ( !current_user_can('edit_posts') )
 		return;
 
@@ -566,6 +573,7 @@ function wp_admin_bar_comments_menu( $wp_admin_bar ) {
 		'href'  => admin_url('edit-comments.php'),
 		'meta'  => array( 'title' => $awaiting_title ),
 	) );
+    */
 }
 
 /**
@@ -614,7 +622,7 @@ function wp_admin_bar_appearance_menu( $wp_admin_bar ) {
  */
 function wp_admin_bar_updates_menu( $wp_admin_bar ) {
 
-	$update_data = wp_get_update_data();
+	/*$update_data = wp_get_update_data();
 
 	if ( !$update_data['counts']['total'] )
 		return;
@@ -630,6 +638,7 @@ function wp_admin_bar_updates_menu( $wp_admin_bar ) {
 			'title' => $update_data['title'],
 		),
 	) );
+	*/
 }
 
 /**
@@ -638,6 +647,7 @@ function wp_admin_bar_updates_menu( $wp_admin_bar ) {
  * @since 3.3.0
  */
 function wp_admin_bar_search_menu( $wp_admin_bar ) {
+    /*
 	if ( is_admin() )
 		return;
 
@@ -655,6 +665,8 @@ function wp_admin_bar_search_menu( $wp_admin_bar ) {
 			'tabindex' => -1,
 		)
 	) );
+
+    */
 }
 
 /**

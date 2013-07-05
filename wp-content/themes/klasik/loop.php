@@ -22,10 +22,10 @@
 <?php /* If there are no posts to display, such as an empty archive page */ ?>
 <?php if ( ! have_posts() ) : ?>
 	<article id="post-0" class="post error404 not-found">
-		<h1 class="posttitle"><?php _e( 'Not Found', 'klasik' ); ?></h1>
+		<h1 class="posttitle"><?php _e( 'Tidak Ditemukan', 'klasik' ); ?></h1>
 		<div class="entry">
-			<p><?php _e( 'Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post.', 'klasik' ); ?></p>
-			<?php get_search_form(); ?>
+			<p><?php _e( 'Maaf, apa yang Anda inginkan tidak ditemukan', 'klasik' ); ?></p>
+			<?php // get_search_form(); ?>
 		</div>
 	</article>
 <?php endif; ?>

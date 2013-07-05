@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6{color:#444444;}
 .pagetitle{color:#444444;}
 /*============================================== HEADER AND MENU SECTION ==============================================*/
 #outerheader{ background-color:#ffffff; border-color:#e4e4e4;}
-.sf-menu a, .sf-menu a:visited{color:#444;}/* 1st level */
+.sf-menu a, .sf-menu a:visited{color:#FFE599;}/* 1st level */
 .sf-menu a:hover, .sf-menu li.current a{color:#777;}/* 1st level */
 .sf-menu li.sfHover a:hover{color:#777;}/* 2nd level */
 
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6{color:#444444;}
 .sf-menu ul li a{ color:#444;}
 .sf-menu ul li a:hover, #topnav li li a.current{color:#444;}
 
-.sf-menu a:hover, .sf-menu li.current-menu-item > a, .sf-menu li.current_page_item > a, .sf-menu li.current-menu-ancestor > a, .sf-menu li.current-menu-parent > a, .sf-menu li.current_page_ancestor > a, .sf-menu li.current_page_parent > a{color:#777;}
+.sf-menu a:hover, .sf-menu li.current-menu-item > a, .sf-menu li.current_page_item > a, .sf-menu li.current-menu-ancestor > a, .sf-menu li.current-menu-parent > a, .sf-menu li.current_page_ancestor > a, .sf-menu li.current_page_parent > a{color:#D6A617;}
 
 .sf-menu ul li a:hover, .sf-menu li li.current-menu-item > a, .sf-menu li li.current_page_item > a, .sf-menu li.current-menu-ancestor li > a, .sf-menu li.current-menu-parent li > a, .sf-menu li.current_page_ancestor li > a, .sf-menu li.current_page_parent li > a{color:#444; background-color:#eeeeee;}
 
