@@ -246,7 +246,7 @@ function wp_admin_bar_site_menu( $wp_admin_bar ) {
 		$wp_admin_bar->add_menu( array(
 			'parent' => 'site-name',
 			'id'     => 'view-site',
-			'title'  => __( 'Visit Site' ),
+			'title'  => __( 'Lihat Situs' ),
 			'href'   => home_url( '/' ),
 		) );
 

@@ -360,6 +360,8 @@ function wp_dashboard_right_now() {
 	do_action('right_now_discussion_table_end');
 	echo "\n\t</table>\n\t</div>";
 
+
+    /*
 	echo "\n\t".'<div class="versions">';
 	$theme = wp_get_theme();
 
@@ -393,7 +395,7 @@ function wp_dashboard_right_now() {
 		else
 			printf( __('Theme <span class="b">%1$s</span>'), $theme->display('Name') );
 	}
-	echo '</p>';
+	echo '</p>'; */
 
 	// Check if search engines are asked not to index this site.
 	if ( !is_network_admin() && !is_user_admin() && current_user_can('manage_options') && '1' != get_option('blog_public') ) {
@@ -406,7 +408,7 @@ function wp_dashboard_right_now() {
 	update_right_now_message();
 
 	echo "\n\t".'<br class="clear" /></div>';
-	do_action( 'rightnow_end' );
+	//do_action( 'rightnow_end' );
 	do_action( 'activity_box_end' );
 }
 
