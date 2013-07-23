@@ -6,9 +6,9 @@ CHANGE COLOR STYLE
 
 */
 
-body {color:#666;}
+body {color:#1c1c1c;}
 #bodychild {}
-#outermain{background-color:#ffffff; border-color:#e4e4e4;}
+#outermain{background-color:#ffffff; border-color:#aaaaaa;}
 
 /*============================================== GENERAL SECTION ==============================================*/
 a, .morelink, .colortext, a.colortext{color:#777;}
@@ -18,7 +18,7 @@ a:hover, a.colortext:hover, .colortext a:hover, .morelink:hover{color:#333}
 
 /* Heading & text */
 h1, h2, h3, h4, h5, h6{color:#444444;}
-.pagetitle{color:#444444;}
+.pagetitle{color:#1c1c1c;}
 /*============================================== HEADER AND MENU SECTION ==============================================*/
 #outerheader{ background-color:#ffffff; border-color:#e4e4e4;}
 .sf-menu a, .sf-menu a:visited{color:#FFE599;}/* 1st level */
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6{color:#444444;}
 .tinynav{background:#fff; border:1px solid #eee;}
 
 /*============================================== AFTER HEADER SECTION ==============================================*/
-#outerafterheader{ background-color:#fafafa;}
+#outerafterheader{ }
 
 /*============================================== SLIDER SECTION ==============================================*/
 #outerslider{background-color:#fafafa;}
@@ -164,8 +164,8 @@ tr.odd td {background: #F2F7FC;}
 
 .entry-utility{ 
 	color:#999999;
-	border-top: 1px solid #e3e3e3;
-	border-bottom: 1px solid #e3e3e3;
+	/* border-top: 1px solid #e3e3e3; */
+	/*border-bottom: 1px solid #e3e3e3; */
 	-moz-box-shadow: 0px 1px 0px #fff; /* Firefox 3.6 and earlier */
 	-webkit-box-shadow: 0px 1px 0px #fff; /* Safari and Chrome */
 	box-shadow: 0px 1px 0px #fff;
