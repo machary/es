@@ -40,6 +40,7 @@ require_once $includes_path . 'footer-function.php';
 //Shortcode
 require_once $includes_path . 'theme-shortcode.php';
 
+
 //Loading jQuery
 require_once $includes_path . 'theme-scripts.php';
 
@@ -60,3 +61,4 @@ if(file_exists($child_path . 'includes/child-metaboxes.php')){
 if(file_exists($child_path . 'includes/child-shortcodes.php')){
 	require_once $child_path . 'includes/child-shortcodes.php';
 }
+

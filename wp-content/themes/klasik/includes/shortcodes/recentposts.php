@@ -435,3 +435,13 @@ function recent_content_video($longdesc = 120, $moretext='', $disablemore = fals
 
 	return $output;
 }
+
+function recent_content_category($longdesc = 120, $moretext='', $disablemore = false){
+    global $post;
+    $output = "";
+    $judul = substr(get_the_title(),0,$longdesc).'...';
+    $output .= '<div class="entry-links">';
+    $output .='<a href="'. get_permalink() .'" rel="bookmark" title="'.__('Permanent Link to','templatesquare').' '.the_title_attribute('echo=0').'">'.$judul.'</a>';
+    $output .= '</div>';
+    return $output;
+}

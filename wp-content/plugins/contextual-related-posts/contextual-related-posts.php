@@ -192,7 +192,8 @@ function get_crp_posts($postid = FALSE, $limit = FALSE, $strict_limit = TRUE) {
 	if ((is_int($post->ID))&&($stuff != '')) {
 		$sql = "SELECT DISTINCT ID "
 		. " FROM ".$wpdb->posts." WHERE "
-		. "MATCH (post_title,post_content) AGAINST ('".$stuff."') "
+		. "MATCH (post_title) AGAINST ('".$stuff."') "
+        //    . "MATCH (post_title,post_content) AGAINST ('".$stuff."') "
 		. "AND post_date <= '".$now."' "
 		. "AND post_date >= '".$current_date."' "
 		. "AND post_status = 'publish' "

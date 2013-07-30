@@ -9,6 +9,7 @@
 require_once($shortcode_path. "features.php" );
 require_once($shortcode_path. "portfolio.php" );
 require_once($shortcode_path. "recentposts.php" );
+require_once($shortcode_path. "shortcode-saya.php");
 
 function klasik_run_shortcode( $content ) {
     global $shortcode_tags;
