@@ -225,7 +225,7 @@ ul.sf-menu li li li.sfHover ul {
 /* CONTENT
 -------------------------------------------------------------- */
 #outermain{padding:60px 0 35px 0; border-width:1px 0px 0px 0px; border-style:solid;}
-#outermain.inner{padding: 8px 20px 0 0;}
+#outermain.inner{padding: 8px 0px 0 0;} /* kanan kiri harus 0px, will affects slider in homepage if changed */
 #outermain .container{}
 #maincontent{}
 #content{float:left;}
@@ -1004,4 +1004,9 @@ div.featured-container>div.row>div>div{
 
 .soliloquy-container {
     margin-bottom:30px !important;
+}
+
+.recentpost-container{
+    float:left;
+    margin-bottom:10px;
 }
