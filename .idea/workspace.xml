@@ -23,16 +23,16 @@
       <file leaf-file-name="shortcode-saya.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/includes/shortcodes/shortcode-saya.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="18" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.575188">
+            <state line="43" column="18" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.03195489">
               <folding>
                 <element signature="e#6#163#0" expanded="true" />
                 <element signature="n#count_post_category#0;n#!!top" expanded="false" />
-                <marker date="1375175025043" expanded="true" signature="1207:1224" placeholder="..." />
-                <marker date="1375175025043" expanded="true" signature="1763:1781" placeholder="..." />
+                <marker date="1375175025043" expanded="false" signature="1207:1224" placeholder="..." />
+                <marker date="1375175025043" expanded="false" signature="1763:1781" placeholder="..." />
                 <element signature="n#horizontal_line_function#0;n#!!top" expanded="false" />
                 <element signature="n#category_post_page_function#0;n#!!top" expanded="false" />
-                <marker date="1375175025043" expanded="true" signature="3593:3610" placeholder="..." />
-                <marker date="1375175025043" expanded="true" signature="4074:4092" placeholder="..." />
+                <marker date="1375175025043" expanded="false" signature="3593:3610" placeholder="..." />
+                <marker date="1375175025043" expanded="false" signature="4074:4092" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -41,7 +41,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1010" column="23" selection-start="26243" selection-end="26243" vertical-scroll-proportion="-16.04">
+            <state line="1010" column="23" selection-start="26243" selection-end="26243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -50,18 +50,8 @@
       <file leaf-file-name="recentposts.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/includes/shortcodes/recentposts.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="446" column="1" selection-start="13718" selection-end="13718" vertical-scroll-proportion="-16.038462">
-              <folding>
-                <element signature="n#klasik_recent_posts#0;n#!!top" expanded="false" />
-                <element signature="n#recent_content_default#0;n#!!top" expanded="false" />
-                <element signature="n#recent_content_aside#0;n#!!top" expanded="false" />
-                <element signature="n#recent_content_audio#0;n#!!top" expanded="false" />
-                <element signature="n#recent_content_gallery#0;n#!!top" expanded="false" />
-                <element signature="n#recent_content_image#0;n#!!top" expanded="false" />
-                <element signature="n#recent_content_link#0;n#!!top" expanded="false" />
-                <element signature="n#recent_content_quote#0;n#!!top" expanded="false" />
-                <element signature="n#recent_content_video#0;n#!!top" expanded="false" />
-              </folding>
+            <state line="446" column="1" selection-start="13718" selection-end="13718" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -216,9 +206,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wordpress" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alpha" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -251,10 +241,10 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21363637" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21666667" sideWeight="0.67066896" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -374,26 +364,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="776" column="0" selection-start="21385" selection-end="21385" vertical-scroll-proportion="0.23506744">
-          <folding>
-            <element signature="e#21450#21769#0" expanded="false" />
-            <element signature="n#has_post_format#0;n#!!top" expanded="false" />
-            <element signature="e#21905#22215#0" expanded="false" />
-            <element signature="n#set_post_format#0;n#!!top" expanded="false" />
-            <element signature="e#22656#22913#0" expanded="false" />
-            <element signature="n#get_post_status#0;n#!!top" expanded="false" />
-            <element signature="e#23463#23703#0" expanded="false" />
-            <element signature="n#get_post_statuses#0;n#!!top" expanded="false" />
-            <element signature="e#23908#24146#0" expanded="false" />
-            <element signature="n#get_page_statuses#0;n#!!top" expanded="false" />
-            <element signature="e#24313#25555#0" expanded="false" />
-            <element signature="n#register_post_status#0;n#!!top" expanded="false" />
-            <element signature="e#27239#27539#0" expanded="false" />
-            <element signature="n#get_post_status_object#0;n#!!top" expanded="false" />
-            <element signature="e#27725#28401#0" expanded="false" />
-            <element signature="n#get_post_stati#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
+        <state line="776" column="0" selection-start="21385" selection-end="21385" vertical-scroll-proportion="0.23506744" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-includes/shortcodes.php">
@@ -403,47 +374,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../coba.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="9" selection-start="176" selection-end="176" vertical-scroll-proportion="0.32945737">
-          <folding />
-        </state>
+        <state line="10" column="9" selection-start="176" selection-end="176" vertical-scroll-proportion="0.32945737" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1010" column="23" selection-start="26243" selection-end="26243" vertical-scroll-proportion="-16.04">
+        <state line="1010" column="23" selection-start="26243" selection-end="26243" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/includes/shortcodes/recentposts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="446" column="1" selection-start="13718" selection-end="13718" vertical-scroll-proportion="-16.038462">
-          <folding>
-            <element signature="n#klasik_recent_posts#0;n#!!top" expanded="false" />
-            <element signature="n#recent_content_default#0;n#!!top" expanded="false" />
-            <element signature="n#recent_content_aside#0;n#!!top" expanded="false" />
-            <element signature="n#recent_content_audio#0;n#!!top" expanded="false" />
-            <element signature="n#recent_content_gallery#0;n#!!top" expanded="false" />
-            <element signature="n#recent_content_image#0;n#!!top" expanded="false" />
-            <element signature="n#recent_content_link#0;n#!!top" expanded="false" />
-            <element signature="n#recent_content_quote#0;n#!!top" expanded="false" />
-            <element signature="n#recent_content_video#0;n#!!top" expanded="false" />
-          </folding>
+        <state line="446" column="1" selection-start="13718" selection-end="13718" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/includes/shortcodes/shortcode-saya.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="18" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.575188">
+        <state line="43" column="18" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.03195489">
           <folding>
             <element signature="e#6#163#0" expanded="true" />
             <element signature="n#count_post_category#0;n#!!top" expanded="false" />
-            <marker date="1375175025043" expanded="true" signature="1207:1224" placeholder="..." />
-            <marker date="1375175025043" expanded="true" signature="1763:1781" placeholder="..." />
+            <marker date="1375175025043" expanded="false" signature="1207:1224" placeholder="..." />
+            <marker date="1375175025043" expanded="false" signature="1763:1781" placeholder="..." />
             <element signature="n#horizontal_line_function#0;n#!!top" expanded="false" />
             <element signature="n#category_post_page_function#0;n#!!top" expanded="false" />
-            <marker date="1375175025043" expanded="true" signature="3593:3610" placeholder="..." />
-            <marker date="1375175025043" expanded="true" signature="4074:4092" placeholder="..." />
+            <marker date="1375175025043" expanded="false" signature="3593:3610" placeholder="..." />
+            <marker date="1375175025043" expanded="false" signature="4074:4092" placeholder="..." />
           </folding>
         </state>
       </provider>
