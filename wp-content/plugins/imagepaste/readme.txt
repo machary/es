@@ -3,8 +3,8 @@ Contributors: zingiri
 Donate link: http://www.zingiri.com/donations
 Tags: copy paste, copy, paste, ctrl-v, ctrl v, image paste, copy image, paste image
 Requires at least: 3.4
-Tested up to: 3.5.1
-Stable tag: 1.0.1
+Tested up to: 3.6
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 Image Paste allows you to copy and paste images from your desktop to the Wordpress editor
@@ -35,14 +35,11 @@ Only Firefox (version 18 or higher) and Google Chrome (version 24 or higher) are
 Depending on the take up of the plugin, we will be adding support for Ms Internet Explorer.
 Safari is currently not compatible at all because of the way it handles embedded images, we're waiting for a fix from Apple regarding this.
 
-== Screenshots ==
-
-Coming soon ...
-
-== Upgrade Notice ==
-Standard plugin upgrade method applies.
-
 == Changelog ==
+
+= 1.0.2 =
+* Added support for Rackspace Cloudfiles activated via W3 Total Cache (works only in Firefox)
+* Verified compatibility with Wordpress 3.6
 
 = 1.0.1 =
 * Minor fixes

@@ -116,23 +116,30 @@ wp_head();
         <?php
 
 		$def_enableslider = ( klasik_get_option('klasik_enable_slider')=="1" && is_front_page() )? true : false;
-		
+
 		$custom = klasik_get_customdata();
         $cf_enableslider = (isset($custom["klasik_enable_slider"][0]))? $custom["klasik_enable_slider"][0] : $def_enableslider;
-		
+
         if($cf_enableslider){
-		
+
 			get_template_part( 'slider');
 			$outermainclass = "";
         }else{
 			$outermainclass = "inner";
         ?>
+
+        <div><?php
+             if( is_home()|| is_front_page()){
+                 echo do_shortcode("[soliloquy id=455]");
+             }
+            ?>
+        </div>
         <div id="outerafterheader">
         	<div class="container">
             	<div class="row">
                 
                     <div id="afterheader" class="twelve columns">
-                    <?php  
+                    <?php
                         get_template_part( 'title');
 
                         $custom = klasik_get_customdata();

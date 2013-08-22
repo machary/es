@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6{color:#444444;}
 .pagetitle{color:#1c1c1c;}
 /*============================================== HEADER AND MENU SECTION ==============================================*/
 #outerheader{ background-color:#ffffff; border-color:#e4e4e4;}
-.sf-menu a, .sf-menu a:visited{color:#FFE599;}/* 1st level */
+.sf-menu a, .sf-menu a:visited{color:#383838;}/* 1st level */
 .sf-menu a:hover, .sf-menu li.current a{color:#777;}/* 1st level */
 .sf-menu li.sfHover a:hover{color:#777;}/* 2nd level */
 
@@ -96,9 +96,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-	background: #505050; /* for non-css3 browsers */
-	background: -webkit-gradient(linear, left top, left bottom, from(#7C7FD6), to(#393C91)); /* for webkit browsers */
-	background: -moz-linear-gradient(top,  #7C7FD6,  #393C91); /* for firefox 3.6+ */
+	background: none repeat scroll 0 0 #446C86 ;
 	color:#fff;
 	
 }
@@ -107,9 +105,10 @@ button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
-	background: #6b6b6b; /* for non-css3 browsers */
-	background: -webkit-gradient(linear, left top, left bottom, from(#505050), to(#6b6b6b)); /* for webkit browsers */
-	background: -moz-linear-gradient(top,  #505050,  #6b6b6b); /* for firefox 3.6+ */
+    background: none repeat scroll 0 0 #6190AD;
+	/*background: #6b6b6b; /* for non-css3 browsers */
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#505050), to(#6b6b6b)); /* for webkit browsers */
+	/*background: -moz-linear-gradient(top,  #505050,  #6b6b6b); /* for firefox 3.6+ */
 	border:solid 1px #454545;
 	color:#fff;
 }

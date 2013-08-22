@@ -116,7 +116,6 @@ class Tgmsp_Lite_Admin {
 
 		add_meta_box( 'soliloquy_uploads', Tgmsp_Lite_Strings::get_instance()->strings['meta_uploads'], array( $this, 'soliloquy_uploads' ), 'soliloquy', 'normal', 'high' );
 		add_meta_box( 'soliloquy_settings', Tgmsp_Lite_Strings::get_instance()->strings['meta_settings'], array( $this, 'soliloquy_settings' ), 'soliloquy', 'normal', 'high' );
-		add_meta_box( 'soliloquy_email', Tgmsp_Lite_Strings::get_instance()->strings['email_instructions'], array( $this, 'soliloquy_email' ), 'soliloquy', 'side', 'high' );
 		add_meta_box( 'soliloquy_upgrade', Tgmsp_Lite_Strings::get_instance()->strings['meta_upgrade'], array( $this, 'soliloquy_upgrade' ), 'soliloquy', 'side', 'core' );
 		add_meta_box( 'soliloquy_instructions', Tgmsp_Lite_Strings::get_instance()->strings['meta_instructions'], array( $this, 'soliloquy_instructions' ), 'soliloquy', 'side', 'core' );
 
@@ -317,40 +316,6 @@ class Tgmsp_Lite_Admin {
 		$upgrade .= sprintf( '<p><a href="' . apply_filters( 'tgmsp_affiliate_url', 'http://soliloquywp.com/pricing/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite' ) . '" title="%1$s" target="_blank"><strong>%1$s</strong></a></p>', Tgmsp_Lite_Strings::get_instance()->strings['upgrade_now'] );
 
 		echo $upgrade;
-
-	}
-
-	/**
-	 * Callback function for Soliloquy email signup.
-	 *
-	 * @since 1.0.0
-	 *
-	 * @param object $post Current post object data
-	 */
-	public function soliloquy_email( $post ) {
-
-		echo '<div class="soliloquy-email">';
-			echo '<p>' . Tgmsp_Lite_Strings::get_instance()->strings['email_desc'] . '</p>';
-			echo '<input type="email" name="soliloquy-email" value="" placeholder="' . Tgmsp_Lite_Strings::get_instance()->strings['email_placeholder'] . '" style="margin-right:5px;width:186px;" />';
-			echo '<a class="button button-primary soliloquy-signup-email" href="#" title="' . Tgmsp_Lite_Strings::get_instance()->strings['email_now'] . '">' . Tgmsp_Lite_Strings::get_instance()->strings['email_now'] . '</a>';
-			echo '<script type="text/javascript">';
-				echo 'jQuery(document).ready(function($){';
-					echo '$(".soliloquy-signup-email").on("click", function(e){';
-						echo 'e.preventDefault();';
-						echo 'var $this = $(this), working = "' . Tgmsp_Lite_Strings::get_instance()->strings["working"] . '", orig_text = $this.text();';
-						echo '$this.text(working); $(".soliloquy-error").remove();';
-						echo '$.post(ajaxurl, { action: "soliloquy_email", email: $("input[name=\'soliloquy-email\']").val() }, function(resp){';
-							echo 'if ( resp && resp.error ) {';
-								echo '$("input[name=\'soliloquy-email\']").before("<p class=\'soliloquy-error\' style=\'color:#ff0000;\'>" + resp.error + "</p>");';
-							echo '} else {';
-								echo '$("input[name=\'soliloquy-email\']").before("<p style=\'color:#009933;\'>" + resp.success + "</p>");';
-							echo '}';
-							echo '$this.text(orig_text);';
-						echo '}, "json");';
-					echo '});';
-				echo '});';
-			echo '</script>';
-		echo '</div>';
 
 	}
 

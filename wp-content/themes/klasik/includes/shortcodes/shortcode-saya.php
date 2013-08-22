@@ -178,3 +178,16 @@ function category_posts_list_function($atts){
 
     endforeach;
 }
+
+function my_column($atts,$content = null){
+    extract(shortcode_atts(array(
+        "cols" => 'six'
+    ), $atts));
+
+    $output = "";
+    $output .='<div class=" '.$cols.' columns">';
+    $output .= $content ;
+    $output .='</div>';
+    return $output;
+}
+add_shortcode('kolom', 'my_column');

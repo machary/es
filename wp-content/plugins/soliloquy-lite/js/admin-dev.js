@@ -2,7 +2,7 @@
  * jQuery to power image uploads, modifications and removals.
  *
  * The object passed to this script file via wp_localize_script is
- * soliloquy. 
+ * soliloquy.
  *
  * @package   TGM-Soliloquy
  * @version   1.0.0
@@ -16,24 +16,24 @@ jQuery(document).ready(function($) {
 
 	/** Hide elements on page load */
 	$('.soliloquy-image-meta').hide();
-	
+
 	/** Set default post meta fields */
 	if ( $('#soliloquy-width').length > 0 && 0 == $('#soliloquy-width').val().length ) {
 		$('#soliloquy-width').val(soliloquy.width);
 	}
-		
+
 	if ( $('#soliloquy-height').length > 0 && 0 == $('#soliloquy-height').val().length ) {
 		$('#soliloquy-height').val(soliloquy.height);
 	}
-		
+
 	if ( $('#soliloquy-speed').length > 0 && 0 == $('#soliloquy-speed').val().length ) {
 		$('#soliloquy-speed').val(soliloquy.speed);
 	}
-		
+
 	if ( $('#soliloquy-duration').length > 0 && 0 == $('#soliloquy-duration').val().length ) {
 		$('#soliloquy-duration').val(soliloquy.duration);
 	}
-	
+
 	/** Process fadeToggle for slider size explanation */
 	$('.soliloquy-size-more').on('click.soliloquySizeExplain', function(e) {
 		e.preventDefault();
@@ -44,25 +44,25 @@ jQuery(document).ready(function($) {
 	$('#soliloquy-area').on('click.soliloquyRemove', '.remove-image', function(e) {
 		e.preventDefault();
 		formfield = $(this).parent().attr('id');
-		
+
 		/** Output loading icon and message */
 		$('#soliloquy-upload').after('<span class="soliloquy-waiting"><img class="spinner" src="' + soliloquy.spinner + '" width="16px" height="16px" style="margin: 0 5px; vertical-align: bottom;" />' + soliloquy.removing + '</span>');
-		
+
 		/** Prepare our data to be sent via Ajax */
 		var remove = {
 			action: 		'soliloquy_remove_images',
 			attachment_id: 	formfield,
 			nonce: 			soliloquy.removenonce
 		};
-		
+
 		/** Process the Ajax response and output all the necessary data */
 		$.post(
-			soliloquy.ajaxurl, 
-			remove, 
-			function(response) {	
+			soliloquy.ajaxurl,
+			remove,
+			function(response) {
 				$('#' + formfield).fadeOut('normal', function() {
 					$(this).remove();
-					
+
 					/** Remove the spinner and loading message */
 					$('.soliloquy-waiting').fadeOut('normal', function() {
 						$(this).remove();
@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
 			'json'
 		);
 	});
-	
+
 	/** Use thickbox to handle image meta fields */
 	$('#soliloquy-area').on('click.soliloquyModify', '.modify-image', function(e) {
 		e.preventDefault();
@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
 				tb_remove();
 			}
 		});
-			
+
 		/** Close thickbox if they click the overlay */
 		$(document).contents().find('#TB_overlay').on('click.soliloquyIframe', function() {
 			if( $('html').hasClass('soliloquy-editing') ) {
@@ -95,19 +95,19 @@ jQuery(document).ready(function($) {
 				tb_remove();
 			}
 		});
-		
+
 		return false;
 	});
-	
+
 	/** Save image meta via Ajax */
 	$(document).on('click.soliloquyMeta', '.soliloquy-meta-submit', function(e) {
 		e.preventDefault();
-		
+
 		/** Set default meta values that any addon would need */
 		var table 		= $(this).parent().find('.soliloquy-meta-table').attr('id');
 		var attach 		= table.split('-');
 		var attach_id 	= attach[3];
-		
+
 		/** Prepare our data to be sent via Ajax */
 		var meta = {
 			action: 	'soliloquy_update_meta',
@@ -115,20 +115,20 @@ jQuery(document).ready(function($) {
 			id: 		soliloquy.id,
 			nonce: 		soliloquy.metanonce
 		};
-		
+
 		/** Loop through each table item and send data for every item that has a usable class */
 		$('#' + table + ' td').each(function() {
 			/** Grab all the items within each td element */
 			var children = $(this).find('*');
-			
+
 			/** Loop through each child element */
 			$.each(children, function() {
 				var field_class = $(this).attr('class');
 				var field_val 	= $(this).val();
-				
+
 				if ( 'checkbox' == $(this).attr('type') )
 					var field_val = $(this).is(':checked') ? 'true' : 'false';
-				
+
 				/** Store all data in the meta object */
 				meta[field_class] = field_val;
 			});
@@ -136,17 +136,17 @@ jQuery(document).ready(function($) {
 
 		/** Output loading icon and message */
 		$(this).after('<span class="soliloquy-waiting"><img class="spinner" src="' + soliloquy.spinner + '" width="16px" height="16px" style="margin: 0 5px; vertical-align: middle;" />' + soliloquy.saving + '</span>');
-		
+
 		/** Process the Ajax response and output all the necessary data */
 		$.post(
-			soliloquy.ajaxurl, 
-			meta, 
-			function(response) {	
+			soliloquy.ajaxurl,
+			meta,
+			function(response) {
 				/** Remove the spinner and loading message */
 				$('.soliloquy-waiting').fadeOut('normal', function() {
 					$(this).remove();
 				});
-				
+
 				/** Remove thickbox with a slight delay */
 				var metaTimeout = setTimeout(function() {
 					$('html').removeClass('soliloquy-editing');
@@ -156,14 +156,14 @@ jQuery(document).ready(function($) {
 			'json'
 		);
 	});
-	
+
 	/** Use thickbox to handle image uploads */
 	$('#soliloquy-area').on('click.soliloquyUpload', '#soliloquy-upload', function(e) {
 		e.preventDefault();
 		$('html').addClass('soliloquy-uploading');
 		formfield = $(this).parent().prev().attr('name');
  		tb_show( soliloquy.upload, 'media-upload.php?post_id=' + soliloquy.id + '&type=image&context=soliloquy-image-uploads&TB_iframe=true&width=640&height=500' );
- 		
+
  		/** Refresh image list and meta if a user selects to save changes instead of insert into the slider gallery */
 		$(document).contents().find('#TB_closeWindowButton').on('click.soliloquyIframe', function() {
 			/** Refresh if they click the actual close button */
@@ -173,7 +173,7 @@ jQuery(document).ready(function($) {
 				soliloquyRefresh();
 			}
 		});
-			
+
 		/** Refresh if they click the overlay */
 		$(document).contents().find('#TB_overlay').on('click.soliloquyIframe', function() {
 			if( $('html').hasClass('soliloquy-uploading') ) {
@@ -182,19 +182,19 @@ jQuery(document).ready(function($) {
 				soliloquyRefresh();
 			}
 		});
-		
+
  		return false;
 	});
-	
+
 	window.original_send_to_editor = window.send_to_editor;
-	
+
 	/** Send out an ajax call to refresh the image attachment list */
 	window.send_to_editor = function(html) {
 		if (formfield) {
 			/** Remove thickbox and extra html class */
 			tb_remove();
 			$('html').removeClass('soliloquy-uploading');
-			
+
 			/** Delay the processing of the refresh until thickbox has closed */
 			var timeout = setTimeout(function() {
 				soliloquyRefresh();
@@ -204,7 +204,7 @@ jQuery(document).ready(function($) {
  			window.original_send_to_editor(html);
  		}
 	};
-	
+
 	/** Reset variables */
 	var formfield 	= '';
 	var remove 		= '';
@@ -215,10 +215,10 @@ jQuery(document).ready(function($) {
 	var metaTimeout = '';
 	var timeout 	= '';
 	var refresh 	= '';
-	
+
 	/** Make image uploads sortable */
 	var items = $('#soliloquy-images');
-	
+
 	/** Use Ajax to update the item order */
 	if ( 0 !== items.length ) {
 		items.sortable({
@@ -226,7 +226,7 @@ jQuery(document).ready(function($) {
 			update: function(event, ui) {
 				/** Show the loading text and icon */
 				$('.soliloquy-waiting').show();
-			
+
 				/** Prepare our data to be sent via Ajax */
 				var opts = {
 					url: 		soliloquy.ajaxurl,
@@ -242,19 +242,19 @@ jQuery(document).ready(function($) {
                 	},
                 	success: function(response) {
                     	$('.soliloquy-waiting').hide();
-                    	return; 
+                    	return;
                 	},
-                	error: function(xhr, textStatus ,e) { 
+                	error: function(xhr, textStatus ,e) {
                     	$('.soliloquy-waiting').hide();
-                    	return; 
+                    	return;
                 	}
             	};
             	$.ajax(opts);
 			}
 		});
 	}
-	
-	/** jQuery function for loading the image uploads */	
+
+	/** jQuery function for loading the image uploads */
 	function soliloquyRefresh() {
 		/** Prepare our data to be sent via Ajax */
 		var refresh = {
@@ -269,8 +269,8 @@ jQuery(document).ready(function($) {
 
 		/** Process the Ajax response and output all the necessary data */
 		$.post(
-			soliloquy.ajaxurl, 
-			refresh, 
+			soliloquy.ajaxurl,
+			refresh,
 			function(json) {
 				/** Loop through the object */
 				$.each(json.images, function(i, object) {
@@ -278,11 +278,11 @@ jQuery(document).ready(function($) {
 					var image = json.images[i];
 
 					/** Store the output into a variable */
-					output += 
-						'<li id="' + image.id + '" class="soliloquy-image attachment-' + image.id + '">' + 
+					output +=
+						'<li id="' + image.id + '" class="soliloquy-image attachment-' + image.id + '">' +
 							'<img src="' + image.src + '" width="' + image.width + '" height="' + image.height + '" />' +
 							'<a href="#" class="remove-image" title="' + soliloquy.remove + '"></a>' +
-							'<a href="#" class="modify-image" title="' + soliloquy.modify + '"></a>' + 
+							'<a href="#" class="modify-image" title="' + soliloquy.modify + '"></a>' +
 							'<div id="meta-' + image.id + '" class="soliloquy-image-meta" style="display: none;">' +
 								'<div class="soliloquy-meta-wrap">' +
 									'<h2>' + soliloquy.metatitle + '</h2>' +
@@ -375,12 +375,12 @@ jQuery(document).ready(function($) {
 			$(this).remove();
 		});
 	}
-	
+
 	/** Handle dismissing of upgrade notice */
 	$('#soliloquy-dismiss-notice').on('click.soliloquyDismiss', function(e){
 		/** Prevent the default action from occurring */
 		e.preventDefault();
-		
+
 		/** Prepare our data to be sent via Ajax */
 		var opts = {
 			url: 		soliloquy.ajaxurl,
@@ -394,10 +394,10 @@ jQuery(document).ready(function($) {
             },
             success: function(response) {
                 $('#setting-error-tgmsp-upgrade-soliloquy').fadeOut();
-                return; 
+                return;
             },
-            error: function(xhr, textStatus ,e) { 
-                return; 
+            error: function(xhr, textStatus ,e) {
+                return;
             }
         };
         $.ajax(opts);

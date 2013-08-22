@@ -22,7 +22,7 @@ body {
 /* heading */
 h1, h2, h3{margin-bottom:20px;}
 h4, h5, h6{margin-bottom:14px;}
-h1	{font-size:36px;}
+h1	{font-size:28px;}
 h2	{font-size:24px;}
 h3	{font-size:22px;}
 h4	{font-size:16px;}
@@ -30,7 +30,7 @@ h5	{font-size:14px;}
 h6	{font-size:13px;}
 h1, h2, h3, h4, h5, h6{ font-weight:normal; line-height:normal; font-family: 'Open Sans', Arial, sans-serif; }
 
-.pagetitle{font-size:26px; margin-bottom:0px; margin-right:10px; float:left;  }
+.pagetitle{ margin-bottom:0px; margin-right:10px; float:left;  }
 .pagedesc { line-height:18px; font-size:11px;}
 
 
@@ -48,9 +48,9 @@ h1, h2, h3, h4, h5, h6{ font-weight:normal; line-height:normal; font-family: 'Op
 
 #outerheader, #outerslider, #outerbeforecontent, #outermain,  #outerfootersidebar, #outerfooter{width:100%; margin:0 auto}
 #outerheader{
-    padding: 24px 0;
-    padding: 1rem 0;
-    background: url("images/bg-header.png") repeat scroll 0 0 #292929;
+    /* padding: 24px 0;
+     padding: 1rem 0;
+     background: url("images/bg-header.png") repeat scroll 0 0 #292929; */
     border-bottom: 1px solid #111111;
     box-shadow: none;
     filter: none;
@@ -72,6 +72,7 @@ h1, h2, h3, h4, h5, h6{ font-weight:normal; line-height:normal; font-family: 'Op
 
 /* Nav Menu */
 #topnav{
+    border-bottom: 1px solid #eeeeee;
 	margin:0;
 	list-style-type:none;
 	overflow:visible;
@@ -79,13 +80,15 @@ h1, h2, h3, h4, h5, h6{ font-weight:normal; line-height:normal; font-family: 'Op
 	padding:0;
 	float:right;	
 	font-family: 'Open Sans', Arial, sans-serif !important;
+    height: 45px;
 }
 
 .sf-menu a {
 	text-decoration:none;
 	display:		block;
 	position:		relative;
-	padding: 		0px 8px;
+	padding: 		10px 20px 16px;
+
 }
 
 .sf-menu > li {
@@ -96,6 +99,9 @@ h1, h2, h3, h4, h5, h6{ font-weight:normal; line-height:normal; font-family: 'Op
 
 /* Drop down menu */
 .sf-menu ul a:hover {}
+.sf-menu li a:hover{
+    border-bottom: 5px solid #95BED8;
+}
 .sf-menu li li {
 	text-align:left;
 	line-height:20px;
@@ -105,7 +111,8 @@ h1, h2, h3, h4, h5, h6{ font-weight:normal; line-height:normal; font-family: 'Op
 	margin:			0;
 	padding:		0;
 	list-style:		none;
-	font-size:13px;
+    text-transform:uppercase;
+    font-size: 14px;
 	
 }
 .sf-menu {
@@ -271,10 +278,10 @@ textarea, input[type="password"], select{
 	padding:7px 5px;
 	font-size:11px;
 	font-family:Arial;
-	-moz-border-radius: 3px;
+	/*-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-khtml-border-radius: 3px;
-	border-radius: 3px;
+	border-radius: 3px; */
 }
 
 textarea{width:90%;}
@@ -283,15 +290,15 @@ textarea:focus{outline:0;}
 
 .button, .button:visited, input[type="submit"],input[type="reset"], input[type="button"], button{
 	border:0px;
-	padding:9px 20px 10px 20px;
+	/*padding:9px 20px 10px 20px; */
 	cursor:pointer;
-	font-size:14px;
+	/*font-size:14px;*/
 	line-height:14px;
-	text-transform:uppercase;
-	-moz-border-radius: 3px;
+	/*text-transform:uppercase;
+	/*-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-khtml-border-radius: 3px;
-	border-radius: 3px;
+	border-radius: 3px; */
 	
 }
 .button:hover, input[type="submit"]:hover,input[type="reset"]:hover, input[type="button"]:hover, button:hover{
@@ -849,12 +856,12 @@ a.comment-edit-link:hover {
     margin-right: 10px;
     margin-bottom: 10px;
     width:78%;
-    float:left;
+   /* float:left; */
 }
 .searchbutton {
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-    border-radius: 7px 7px 7px 7px;
-    color: #FFFFFF !important;
+   /* border-radius: 7px 7px 7px 7px; */
+  /*  color: #FFFFFF !important; */
     font-size: 20px;
     height: 58px;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
@@ -990,7 +997,7 @@ Masmek
 -----------------------------------*/
 
 #main-search-form{
-    padding: 20px 9%;
+    padding: 15px 9% 20px;
     text-align: center;
 }
 

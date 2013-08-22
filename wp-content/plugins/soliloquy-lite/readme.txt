@@ -61,32 +61,30 @@ You can get access to more features, Addons and support by [visiting the Soliloq
 
 == Notes ==
 
-As of v1.3.0, Soliloquy Lite has been brought to parity with Soliloquy in terms of HTML and class/ID structure. Parity has also been brought when updating default post meta fields that will be available once an upgrade is made. In light of this, namespacing is now implemented in Soliloquy Lite. **This means that any CSS customizations made to Soliloquy Lite will be lost when you upgrade to v1.3.0.** I've included a conversion chart below so that you can see what classes/IDs have changed so that you can update your CSS styles accordingly. I'm available to help in the transition, so please feel free to submit a support thread regarding this and I will help you out. Again, take note of the conversion chart below and utilize it before upgrading.
+Soliloquy is absolutely, positively the [best responsive WordPress slider plugin](http://soliloquywp.com/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite) on the market. It is fast, flexible and solves the problem of responsive sliders in a flash.
 
-**Note** Any instances on {slider_id} refer to the numeric slider ID, e.g. #soliloquy-container-922 where 922 is the ID of the slider. Any instances of {$i} refer to the current slide number in the slide, e.g. #soliloquy-287-item-2, where 2 is slide #2 in the slider.
+= Addons =
 
-* #flex-container-{slider_id} > #soliloquy-container-{slider_id}
-* .flex-container > .soliloquy-container
-* .flex-viewport > .soliloquy-viewport
-* #flexslider-{slider_id} > #soliloquy-{slider_id}
-* .flexslider > .soliloquy
-* #flexslider-list-{slider_id} > #soliloquy-list-{slider_id}
-* .slides > .soliloquy-slides (this change was made to prevent errant instantiation from other scripts)
-* #flexslider-{slider_id}-item-{$i} > #soliloquy-{slider_id}-item-{$i}
-* .flexslider-item > .soliloquy-item
-* .flex-active-slide > .soliloquy-active-slide
-* .flex-caption > .soliloquy-caption-inside
-* .flex-control-nav > .soliloquy-control-nav
-* .flex-control-paging > .soliloquy-control-paging
-* .flex-active > .soliloquy-active
-* .flex-direction-nav > .soliloquy-direction-nav
-* .flex-prev > .soliloquy-prev
-* .flex-next > .soliloquy-next.flex-disabled > .soliloquy-disabled
-* .flex-pauseplay > .soliloquy-pauseplay
-* .flex-pause > .soliloquy-pause
-* .flex-play > .soliloquy-play
+Soliloquy has many Addons that extend its default functionality to make it do incredible things.
+
+* (Soliloquy Themes Addon)[http://soliloquywp.com/addons/themes/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - beautiful themes for your WordPress slider.
+* (Soliloquy Preview Addon)[http://soliloquywp.com/addons/preview/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - get instant previews of your slider straight inside the editing area of the slider.
+* (Soliloquy Lightbox Addon)[http://soliloquywp.com/addons/lightbox/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - use powerful lightbox features to enhance the presentation and interaction with your WordPress slider.
+* (Soliloquy Instagram Addon)[http://soliloquywp.com/addons/instagram/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - make awesome responsive WordPress sliders from your Instagram photo stream.
+* (Soliloquy Crop Addon)[http://soliloquywp.com/addons/crop/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - instantly and dynamically crop images to the size you specify on the fly. No more resizing in Photoshop!
+* (Soliloquy Featured Content Addon)[http://soliloquywp.com/addons/featured-content/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - make a gorgeous WordPress slider from you posts, pages and other custom post types.
+* (Soliloquy Pinterest Addon)[http://soliloquywp.com/addons/pinterest/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - easily add a "Pin It" button to images in your slider.
+* (Soliloquy Thumbnails Addon)[http://soliloquywp.com/addons/thumbnails/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - give your slider easy-to-use and responsive thumbnails.
+* (Soliloquy Filters Addon)[http://soliloquywp.com/addons/filters/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - add 25+  awesome filters to images in your WordPress slider.
+* (Soliloquy Carousel Addon)[http://soliloquywp.com/addons/carousel/?utm_source=orgrepo&utm_medium=link&utm_campaign=Soliloquy%2BLite] - transform your default WordPress slider into a responsive and easy-to-navigate carousel slider.
 
 == Changelog ==
+
+= 1.5.1 =
+* More bug fixes and enhancements.
+
+= 1.5.0 =
+* Bug fixes and enhancements, including upgrade enhancements.
 
 = 1.4.4 =
 * Updated the main slider script and init script. Be sure to check out the forum topic if your slider disappears. It is caused by a caching issue.
