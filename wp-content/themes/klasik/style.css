@@ -20,7 +20,6 @@ body {
 }
 
 /* heading */
-h1, h2, h3{margin-bottom:20px;}
 h4, h5, h6{margin-bottom:14px;}
 h1	{font-size:28px;}
 h2	{font-size:24px;}
@@ -232,7 +231,7 @@ ul.sf-menu li li li.sfHover ul {
 /* CONTENT
 -------------------------------------------------------------- */
 #outermain{padding:60px 0 35px 0; border-width:1px 0px 0px 0px; border-style:solid;}
-#outermain.inner{padding: 8px 0px 0 0;} /* kanan kiri harus 0px, will affects slider in homepage if changed */
+#outermain.inner{padding: 33px 0px 0 0;} /* kanan kiri harus 0px, will affects slider in homepage if changed */
 #outermain .container{}
 #maincontent{}
 #content{float:left;}
@@ -1015,5 +1014,13 @@ div.featured-container>div.row>div>div{
 
 .recentpost-container{
     float:left;
-    margin-bottom:10px;
+    margin-bottom:13px;
 }
+
+.cat-based-link{
+    padding:10px 15px;
+    background-color:#446C86;
+}
+
+a.cat-based-link{color: #ffffff;}
+a.cat-based-link:hover{text-decoration: none; color: #bebebe;}

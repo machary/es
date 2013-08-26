@@ -35,7 +35,7 @@ function category_based_function($atts, $content = null) {
 
     $output = "";
     $output .='<div class="recentpost-container six columns">';
-    $output .='<h3 style="width:300px;">'. $label .'</h3>';
+    $output .='<h3 style="width:300px;margin-bottom:12px;">'. $label .'</h3>';
     $output .='<div style="min-height:135px;" >';
     global $wp_query;
     $original_query = $wp_query;
@@ -84,8 +84,14 @@ function category_based_function($atts, $content = null) {
 
     //$counter = wp_count_posts('post')->published;
     $pagelink = get_page_link($pageid);
-    $counter = count_post_category($cat);
-    $output .='<a href="'. $pagelink .'" style="padding:5px 10px;background-color:#aeaeae;"> lihat '.$counter.' jawaban lainnya</a>';
+    if(count_post_category($cat)>$showposts){
+        $counter = count_post_category($cat) - $showposts;
+    }
+    else{
+        $counter = count_post_category($cat);
+    }
+
+    $output .='<a href="'. $pagelink .'" class="cat-based-link"> lihat '.$counter.' jawaban lainnya</a>';
     $output .='</div>';
     return $output;
 }
@@ -113,11 +119,11 @@ function category_post_page_function($atts, $content = null) {
 
     $longdesc = (!is_numeric($lengthchar))? 70 : $lengthchar;
     $disablemore = ($disablemore=="yes")? true : false;
-
+    $counter = count_post_category($cat);
     $output = "";
     $output .='<div class="recentpost-container ten columns">';
-    $output .='<h3 style="width:300px;">'. $label .'</h3>';
-    $output .='<div style="min-height:135px;" >';
+    $output .='<h3 style="margin-bottom:14px;">'. $label .' ('.$counter.')</h3>';
+    $output .='<div style="min-height:135px;margin-bottom:14px;" >';
     global $wp_query;
     $original_query = $wp_query;
     $wp_query = null;
@@ -160,10 +166,6 @@ function category_post_page_function($atts, $content = null) {
     $output.='<div class="clear"></div>';
     $output .='</div>';
     $output.='<div class="clear"></div>';
-
-    $counter = count_post_category($cat);
-    $output .='<h3> Total '.$counter.' jawaban </h3>';
-    $output .='</div>';
     return $output;
 }
 add_shortcode('daftar-jawaban', 'category_post_page_function');
@@ -191,3 +193,4 @@ function my_column($atts,$content = null){
     return $output;
 }
 add_shortcode('kolom', 'my_column');
+
