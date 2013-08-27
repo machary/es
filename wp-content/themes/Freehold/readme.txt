@@ -1,1 +1,0 @@
-Please see "Help Folder" for written and video documentation.

@@ -18,7 +18,7 @@ a:hover, a.colortext:hover, .colortext a:hover, .morelink:hover{color:#333}
 
 /* Heading & text */
 h1, h2, h3, h4, h5, h6{color:#444444;}
-.pagetitle{color:#1c1c1c;}
+.pagetitle{color:#565656;}
 /*============================================== HEADER AND MENU SECTION ==============================================*/
 #outerheader{ background-color:#ffffff; border-color:#e4e4e4;}
 .sf-menu a, .sf-menu a:visited{color:#383838;}/* 1st level */
@@ -217,8 +217,8 @@ tr.odd td {background: #F2F7FC;}
 	-webkit-box-shadow: 0px 1px 0px #fff; /* Safari and Chrome */
 	box-shadow: 0px 1px 0px #fff;
 }
-#sidebar li, #sidebar li a, #sidebar li li a{color:#a4a4a4;}
-#sidebar li a:hover, #sidebar li li a:hover, #sidebar li li a.current{color:#777777;}
+#sidebar li, #sidebar li a, #sidebar li li a{color:#777777;}
+    #sidebar li a:hover, #sidebar li li a:hover, #sidebar li li a.current{color:#000000;}
 
 
 #sidebar .morelink{color:#2e2e2e;}
@@ -262,3 +262,7 @@ tr.odd td {background: #F2F7FC;}
 #outerfooter{background-color:#2c2c2c;}
 #footer{color:#777777;}
 #footer a, #footer a:visited{color:#777777;}
+
+/*================== masmek =====================*/
+.entry-content p>a{color:#305972; font-weight: bold;}
+.entry-content p>a:hover{color:#6190AD;}
