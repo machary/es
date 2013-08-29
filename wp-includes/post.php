@@ -1493,18 +1493,18 @@ function _post_type_meta_capabilities( $capabilities = null ) {
  */
 function get_post_type_labels( $post_type_object ) {
 	$nohier_vs_hier_defaults = array(
-		'name' => array( _x('Manajemen Jawaban', 'post type general name'), _x('Pages', 'post type general name') ),
-		'singular_name' => array( _x('Jawaban', 'post type singular name'), _x('Page', 'post type singular name') ),
-		'add_new' => array( _x('Add New', 'post'), _x('Add New', 'page') ),
-		'add_new_item' => array( __('Tambah Jawaban Baru'), __('Add New Page') ),
-		'edit_item' => array( __('Edit Jawaban'), __('Edit Page') ),
-		'new_item' => array( __('New Post'), __('New Page') ),
-		'view_item' => array( __('View Post'), __('View Page') ),
-		'search_items' => array( __('Search Posts'), __('Search Pages') ),
-		'not_found' => array( __('Jawaban tidak ditemukan.'), __('No pages found.') ),
+		'name' => array( _x('Manajemen Artikel Jawaban', 'post type general name'), _x('Halaman', 'post type general name') ),
+		'singular_name' => array( _x('Artikel', 'post type singular name'), _x('Halaman', 'post type singular name') ),
+		'add_new' => array( _x('Tambah Artikel', 'post'), _x('Tambah Halaman', 'page') ),
+		'add_new_item' => array( __('Tambah Artikel'), __('Add New Page') ),
+		'edit_item' => array( __('Edit Jawaban'), __('Ubah Halaman') ),
+		'new_item' => array( __('Artikel Baru'), __('Halaman Baru') ),
+		'view_item' => array( __('Lihat Artikel'), __('Lihat Halaman') ),
+		'search_items' => array( __('Cari Artikel'), __('Cari Halaman') ),
+		'not_found' => array( __('Artikel Jawaban tidak ditemukan.'), __('Halaman Tidak Ditemukan.') ),
 		'not_found_in_trash' => array( __('No posts found in Trash.'), __('No pages found in Trash.') ),
 		'parent_item_colon' => array( null, __('Parent Page:') ),
-		'all_items' => array( __( 'All Posts' ), __( 'All Pages' ) )
+		'all_items' => array( __( 'Semua Artikel' ), __( 'Semua Halaman' ) )
 	);
 	$nohier_vs_hier_defaults['menu_name'] = $nohier_vs_hier_defaults['name'];
 

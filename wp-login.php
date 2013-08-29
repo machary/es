@@ -59,6 +59,7 @@ function login_header($title = 'Log In', $message = '', $wp_error = '') {
 	<head>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<title><?php bloginfo('name'); ?> &rsaquo; <?php echo $title; ?></title>
+        <link rel='stylesheet' id='main-css'  href='http://localhost/ae/wp-admin/css/custom.css' type='text/css' media='all' />
 	<?php
 
 	wp_admin_css( 'wp-admin', true );
@@ -76,7 +77,7 @@ function login_header($title = 'Log In', $message = '', $wp_error = '') {
 		$login_header_title = $current_site->site_name;
 	} else {
 		$login_header_url   = __( 'http://wordpress.org/' );
-		$login_header_title = __( 'Powered by WordPress' );
+		$login_header_title = __( 'Powered by Sangkuriang' );
 	}
 
 	$login_header_url   = apply_filters( 'login_headerurl',   $login_header_url   );
@@ -95,7 +96,13 @@ function login_header($title = 'Log In', $message = '', $wp_error = '') {
 	?>
 	</head>
 	<body class="login <?php echo esc_attr( implode( ' ', $classes ) ); ?>">
+        <div class="login-bg">
+
+        </div>
 	<div id="login">
+        <a href="http://localhost/ae/" title="Knowledge Base">
+            <img src="http://localhost/ae/wp-content/uploads/2013/06/Logo-new.jpg" alt="">
+        </a>
 		<!-- <h1><a href="<?php // echo esc_url( $login_header_url ); ?>" title="<?php //echo  esc_attr( $login_header_title ); ?>"><?php // bloginfo( 'name' ); ?></a></h1> -->
 	<?php
 

@@ -62,3 +62,21 @@ if(file_exists($child_path . 'includes/child-shortcodes.php')){
 	require_once $child_path . 'includes/child-shortcodes.php';
 }
 
+if(get_current_user_id()!= 1){
+add_action( 'admin_menu', 'my_remove_menu_pages' );
+}
+function my_remove_menu_pages() {
+	    remove_menu_page('edit.php?post_type=slider');
+        remove_menu_page('edit.php?post_type=feature');
+        remove_menu_page('edit.php?post_type=portfolio');
+	}
+
+function edit_admin_menus() {
+    global $menu;
+    global $submenu;
+    $menu[100][0] = 'Slider';
+    $submenu['edit.php?post_type=soliloquy'][5][0] = 'Slider';
+    $submenu['edit.php?post_type=soliloquy'][10][0] = 'Tambah Slider';
+}
+
+add_action( 'admin_menu', 'edit_admin_menus' );

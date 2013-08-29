@@ -1009,12 +1009,12 @@ div.featured-container>div.row>div>div{
 }
 
 .soliloquy-container {
-    margin-bottom:30px !important;
+    margin:0 auto 30px auto !important;
 }
 
 .recentpost-container{
     float:left;
-    margin-bottom:13px;
+    margin-bottom:30px;
 }
 
 .cat-based-link{
