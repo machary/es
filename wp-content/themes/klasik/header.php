@@ -71,9 +71,13 @@ wp_head();
                 <div class="container">
                     <header id="top">
                         <div class="row">
-                        
                             <div id="logo" class="four columns"><?php klasik_logo();?></div>
-                            <section id="navigation" class="eight columns">
+                            <?php if ( !is_user_logged_in() ) { ?>
+                            <a href="wp-login.php" class="one column" style="float:right; line-height: 26px; padding:10px; margin-bottom:15px; background-color: #ffcc00; text-align: center">
+                                LOGIN
+                            </a>
+                            <?php } ?>
+                            <section id="navigation" class="six columns">
                                 <nav id="nav-wrap">
                                     <?php wp_nav_menu( array(
                                       'container'       => 'ul', 
@@ -85,7 +89,7 @@ wp_head();
                                       'theme_location' => 'mainmenu' 
                                       )); 
                                     ?>
-                                </nav><!-- nav -->	
+                                </nav><!-- nav -->
                                 <div class="clear"></div>
                             </section>
                             <div class="clear"></div>
