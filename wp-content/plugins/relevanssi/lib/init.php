@@ -80,13 +80,16 @@ function relevanssi_menu() {
 		$relevanssi_variables['file'],
 		'relevanssi_options'
 	);
-	add_dashboard_page(
-		__('User searches', 'relevanssi'),
-		__('User searches', 'relevanssi'),
-		apply_filters('relevanssi_user_searches_capability', 'edit_pages'),
-		$relevanssi_variables['file'],
-		'relevanssi_search_stats'
-	);
+	if(wp_get_current_user()->ID==1){
+        add_dashboard_page(
+            __('User searches', 'relevanssi'),
+            __('User searches', 'relevanssi'),
+            apply_filters('relevanssi_user_searches_capability', 'edit_pages'),
+            $relevanssi_variables['file'],
+            'relevanssi_search_stats'
+        );
+    }
+
 }
 
 function relevanssi_query_vars($qv) {

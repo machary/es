@@ -920,6 +920,8 @@ function akismet_load_menu() {
 		add_submenu_page( 'jetpack', __( 'Akismet Stats' ), __( 'Akismet Stats' ), 'manage_options', 'akismet-stats-display', 'akismet_stats_display' );
 	} else {
 		add_submenu_page('plugins.php', __('Akismet'), __('Akismet'), 'manage_options', 'akismet-key-config', 'akismet_conf');
-		add_submenu_page('index.php', __('Akismet Stats'), __('Akismet Stats'), 'manage_options', 'akismet-stats-display', 'akismet_stats_display');
+        if(wp_get_current_user()->ID==1){
+            add_submenu_page('index.php', __('Akismet Stats'), __('Akismet Stats'), 'manage_options', 'akismet-stats-display', 'akismet_stats_display');
+        }
 	}
 }
