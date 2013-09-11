@@ -112,33 +112,31 @@ function category_post_page_function($atts, $content = null) {
         "order"	=>	'date',
         "cols" => '1',
         "disablemore" => "yes",
-        "moretext" => __('Continue Reading', 'templatesquare'),
         "lengthchar" => 70
 
     ), $atts));
 
     $longdesc = (!is_numeric($lengthchar))? 70 : $lengthchar;
-    $disablemore = ($disablemore=="yes")? true : false;
     $counter = count_post_category($cat);
     $output = "";
     $output .='<div class="recentpost-container ten columns">';
     $output .='<h3 style="margin-bottom:14px;">'. $label .' ('.$counter.')</h3>';
     $output .='<div style="min-height:135px;margin-bottom:14px;" >';
     global $wp_query;
-    $original_query = $wp_query;
-    $wp_query = null;
-
+    $paged = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
     $args = array(
-        "post_type" => "post",
-        "orderby" => $order
+        'post_type' => 'post',
+        'orderby' => $order,
+        'posts_per_page' => 10,
+        'paged' =>$paged
     );
 
     if($cat!=""){
         $args['category_name'] =  $cat;
     }
 
+
     $wp_query = new WP_Query( $args );
-    global $post;
 
     if ($wp_query->have_posts()) :
         $x = 0;
@@ -155,17 +153,26 @@ function category_post_page_function($atts, $content = null) {
             $output.='<div class="clear"></div>';
             $output .='</div>';
             $output .='</div>';
-
         endwhile;
 
-        $wp_query = null;
-        $wp_query = $original_query;
-        wp_reset_postdata();
+
+        $total_pages = $wp_query->max_num_pages;
+        if($total_pages>1){
+            echo paginate_links(array(
+                'base' => get_pagenum_link(1) . '%_%',
+                'format' => '?paged=%#%',
+                'current' => max(1,get_query_var('paged')),
+                'total' => $total_pages,
+            ));
+        }
+    wp_reset_query();
 
     endif;
+
     $output.='<div class="clear"></div>';
     $output .='</div>';
     $output.='<div class="clear"></div>';
+
     return $output;
 }
 add_shortcode('daftar-jawaban', 'category_post_page_function');

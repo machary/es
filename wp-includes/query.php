@@ -23,7 +23,6 @@
  */
 function get_query_var($var) {
 	global $wp_query;
-
 	return $wp_query->get($var);
 }
 

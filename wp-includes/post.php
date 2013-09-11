@@ -1493,7 +1493,7 @@ function _post_type_meta_capabilities( $capabilities = null ) {
  */
 function get_post_type_labels( $post_type_object ) {
 	$nohier_vs_hier_defaults = array(
-		'name' => array( _x('Manajemen Artikel Jawaban', 'post type general name'), _x('Halaman', 'post type general name') ),
+		'name' => array( _x('Artikel', 'post type general name'), _x('Halaman', 'post type general name') ),
 		'singular_name' => array( _x('Artikel', 'post type singular name'), _x('Halaman', 'post type singular name') ),
 		'add_new' => array( _x('Tambah Artikel', 'post'), _x('Tambah Halaman', 'page') ),
 		'add_new_item' => array( __('Tambah Artikel'), __('Add New Page') ),

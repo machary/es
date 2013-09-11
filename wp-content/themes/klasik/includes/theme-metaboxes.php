@@ -60,7 +60,9 @@ $meta_boxes[] = array(
 	)
 );
 
-add_action('add_meta_boxes', 'mytheme_add_box');
+if(get_current_user_id()==1){
+    add_action('add_meta_boxes', 'mytheme_add_box');
+}
 
 // Add meta box
 function mytheme_add_box() {

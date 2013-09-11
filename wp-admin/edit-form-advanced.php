@@ -38,7 +38,7 @@ $messages['post'] = array(
 	 4 => __('Post updated.'),
 	/* translators: %s: date and time of the revision */
 	 5 => isset($_GET['revision']) ? sprintf( __('Post restored to revision from %s'), wp_post_revision_title( (int) $_GET['revision'], false ) ) : false,
-	 6 => sprintf( __('Post published. <a href="%s">View post</a>'), esc_url( get_permalink($post_ID) ) ),
+	 6 => sprintf( __('Post published. <a href="%s">Lihat Artikel</a>'), esc_url( get_permalink($post_ID) ) ),
 	 7 => __('Post saved.'),
 	 8 => sprintf( __('Post submitted. <a target="_blank" href="%s">Preview post</a>'), esc_url( add_query_arg( 'preview', 'true', get_permalink($post_ID) ) ) ),
 	 9 => sprintf( __('Post scheduled for: <strong>%1$s</strong>. <a target="_blank" href="%2$s">Preview post</a>'),
@@ -112,8 +112,9 @@ if ( 'attachment' == $post_type ) {
 	add_meta_box( 'submitdiv', __( 'Publish' ), 'post_submit_meta_box', null, 'side', 'core' );
 }
 
-if ( current_theme_supports( 'post-formats' ) && post_type_supports( $post_type, 'post-formats' ) )
-	add_meta_box( 'formatdiv', _x( 'Format', 'post format' ), 'post_format_meta_box', null, 'side', 'core' );
+if(get_current_user_id()==1)
+    if ( current_theme_supports( 'post-formats' ) && post_type_supports( $post_type, 'post-formats' ) )
+	    add_meta_box( 'formatdiv', _x( 'Format', 'post format' ), 'post_format_meta_box', null, 'side', 'core' );
 
 // all taxonomies
 foreach ( get_object_taxonomies( $post ) as $tax_name ) {
@@ -126,7 +127,7 @@ foreach ( get_object_taxonomies( $post ) as $tax_name ) {
 	if ( !is_taxonomy_hierarchical($tax_name) )
 		add_meta_box('tagsdiv-' . $tax_name, $label, 'post_tags_meta_box', null, 'side', 'core', array( 'taxonomy' => $tax_name ));
 	else
-		add_meta_box($tax_name . 'div', $label, 'post_categories_meta_box', null, 'side', 'core', array( 'taxonomy' => $tax_name ));
+    		add_meta_box($tax_name . 'div', $label, 'post_categories_meta_box', null, 'side', 'core', array( 'taxonomy' => $tax_name ));
 }
 
 if ( post_type_supports($post_type, 'page-attributes') )
@@ -326,7 +327,7 @@ wp_nonce_field( 'closedpostboxes', 'closedpostboxesnonce', false );
 <?php if ( post_type_supports($post_type, 'title') ) { ?>
 <div id="titlediv">
 <div id="titlewrap">
-	<label class="screen-reader-text" id="title-prompt-text" for="title"><?php echo apply_filters( 'enter_title_here', __( 'Enter title here' ), $post ); ?></label>
+	<label class="screen-reader-text" id="title-prompt-text" for="title"><?php echo apply_filters( 'enter_title_here', __( 'Ketik Judul Artikel Jawaban di sini...' ), $post ); ?></label>
 	<input type="text" name="post_title" size="30" value="<?php echo esc_attr( htmlspecialchars( $post->post_title ) ); ?>" id="title" autocomplete="off" />
 </div>
 <div class="inside">
