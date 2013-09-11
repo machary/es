@@ -1024,3 +1024,12 @@ div.featured-container>div.row>div>div{
 
 a.cat-based-link{color: #ffffff;}
 a.cat-based-link:hover{text-decoration: none; color: #bebebe;}
+
+/* custom */
+.post-pagination br{
+    display: none;
+}
+.post-pagination{
+    line-height: 24px;
+    margin-top: 15px;
+}

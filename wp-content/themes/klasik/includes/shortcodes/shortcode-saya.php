@@ -131,42 +131,35 @@ function category_post_page_function($atts, $content = null) {
         'paged' =>$paged
     );
 
-    if($cat!=""){
-        $args['category_name'] =  $cat;
-    }
-
+    if($cat!=""){ $args['category_name'] =  $cat; }
 
     $wp_query = new WP_Query( $args );
 
     if ($wp_query->have_posts()) :
         $x = 0;
         while ($wp_query->have_posts()) : $wp_query->the_post();
-
             $x++;
-
             $output .='<div style="position:relative;">';
             $output .='<div class="item-container">';
             $postformat = 'category';
-
             $output .= call_user_func('recent_content_'.$postformat, $longdesc, $moretext, $disablemore);
-
             $output.='<div class="clear"></div>';
             $output .='</div>';
             $output .='</div>';
         endwhile;
 
-
         $total_pages = $wp_query->max_num_pages;
         if($total_pages>1){
-            echo paginate_links(array(
+            $output .= '<div class="post-pagination">';
+            $output .= paginate_links(array(
                 'base' => get_pagenum_link(1) . '%_%',
                 'format' => '?paged=%#%',
                 'current' => max(1,get_query_var('paged')),
                 'total' => $total_pages,
             ));
+            $output .='</div>';
         }
     wp_reset_query();
-
     endif;
 
     $output.='<div class="clear"></div>';

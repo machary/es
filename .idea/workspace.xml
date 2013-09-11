@@ -20,17 +20,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shortcode-saya.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shortcode-saya.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/includes/shortcodes/shortcode-saya.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="0" selection-start="4933" selection-end="4933" vertical-scroll-proportion="0.46124032">
+            <state line="106" column="0" selection-start="3081" selection-end="5151" vertical-scroll-proportion="-7.8461537">
               <folding>
-                <marker date="1378869370330" expanded="false" signature="1226:1243" placeholder="..." />
-                <marker date="1378869370330" expanded="false" signature="1782:1800" placeholder="..." />
+                <marker date="1378873532798" expanded="false" signature="1226:1243" placeholder="..." />
+                <marker date="1378873532798" expanded="false" signature="1782:1800" placeholder="..." />
                 <element signature="n#horizontal_line_function#0;n#!!top" expanded="false" />
-                <marker date="1378869370330" expanded="false" signature="3659:3695" placeholder="..." />
-                <marker date="1378869370330" expanded="false" signature="4214:4232" placeholder="..." />
+                <marker date="1378873532798" expanded="false" signature="3659:3695" placeholder="..." />
+                <marker date="1378873532798" expanded="false" signature="4199:4217" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1035" column="0" selection-start="26624" selection-end="26744" vertical-scroll-proportion="0.9357278">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,7 +57,6 @@
         <option value="$PROJECT_DIR$/wp-admin/css/custom.css" />
         <option value="$PROJECT_DIR$/wp-login.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/klasik/404.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/klasik/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/klasik/header.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/embedplus-for-wordpress/embedplus.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/relevanssi/lib/init.php" />
@@ -60,6 +68,7 @@
         <option value="//192.168.0.142/Users/samuel/Desktop/PamanS Projects/emp/app/css/template_css.css" />
         <option value="//192.168.0.142/Users/samuel/Desktop/PamanS Projects/emp/app/css/ja.transmenuh.css" />
         <option value="$PROJECT_DIR$/wp-includes/query.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/klasik/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/klasik/includes/shortcodes/shortcode-saya.php" />
       </list>
     </option>
@@ -131,7 +140,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="wp-includes" />
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="klasik" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -172,14 +221,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2857143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31288344" sideWeight="0.7135506" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1993865" sideWeight="0.71428573" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -188,7 +238,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2864494" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -249,26 +298,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="7" selection-start="1805" selection-end="1805" vertical-scroll-proportion="0.03119266" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/akismet/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="922" column="41" selection-start="42981" selection-end="43014" vertical-scroll-proportion="0.6396917" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="32" selection-start="2512" selection-end="2512" vertical-scroll-proportion="0.39306358" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/post-new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="-4.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-admin/includes/class-wp-posts-list-table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="822" column="29" selection-start="27635" selection-end="27639" vertical-scroll-proportion="0.46963564" />
@@ -326,16 +355,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/class-wp-comments-list-table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="146" column="23" selection-start="4158" selection-end="4158" vertical-scroll-proportion="0.5073314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.2259886">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1967" column="14" selection-start="67916" selection-end="67916" vertical-scroll-proportion="0.40376568">
+          <folding>
+            <marker date="1375163972945" expanded="true" signature="40530:40536" placeholder="..." />
+            <marker date="1375163972945" expanded="true" signature="41656:41662" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/includes/shortcodes/shortcode-saya.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="0" selection-start="4933" selection-end="4933" vertical-scroll-proportion="0.46124032">
+        <state line="106" column="0" selection-start="3081" selection-end="5151" vertical-scroll-proportion="-7.8461537">
           <folding>
-            <marker date="1378869370330" expanded="false" signature="1226:1243" placeholder="..." />
-            <marker date="1378869370330" expanded="false" signature="1782:1800" placeholder="..." />
+            <marker date="1378873532798" expanded="false" signature="1226:1243" placeholder="..." />
+            <marker date="1378873532798" expanded="false" signature="1782:1800" placeholder="..." />
             <element signature="n#horizontal_line_function#0;n#!!top" expanded="false" />
-            <marker date="1378869370330" expanded="false" signature="3659:3695" placeholder="..." />
-            <marker date="1378869370330" expanded="false" signature="4214:4232" placeholder="..." />
+            <marker date="1378873532798" expanded="false" signature="3659:3695" placeholder="..." />
+            <marker date="1378873532798" expanded="false" signature="4199:4217" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/klasik/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1035" column="0" selection-start="26624" selection-end="26744" vertical-scroll-proportion="0.9357278">
+          <folding />
         </state>
       </provider>
     </entry>
