@@ -42,7 +42,29 @@
             </div>
         </div><!-- END #outermain -->
         <!-- END MAIN CONTENT -->
-        
+
+        <!-- Custom Link -->
+        <div style="border-top:1px solid #aaa;">
+        <div id="custom-link">
+            <div class="link-wrapper row">
+                <a class="one columns" href="http://bpsdm.dephub.go.id" title="Situs Kementerian Perhubungan">
+                    <img src="http://localhost/ae/wp-content/uploads/2013/09/Kementerian-Perhubungan-Logo-Vector-e1379673516944.png" width="60"/>
+                </a>
+                <a class="one columns" href="http://bpsdm.dephub.go.id" title="Situs BPSDM">
+                    <img src="http://localhost/ae/wp-content/uploads/2013/09/bpsdm.png" width="70"/>
+                </a>
+                <a class="one columns" href="http://dishub.jakarta.go.id/" title="Dinas Perhubungan DKI Jakarta">
+                    <img src="http://localhost/ae/wp-content/uploads/2013/09/logo-jakarta-lambang-jakarta-jaya-raya-logo-dki-jakarta.png" width="63"/>
+                </a>
+                <a class="one columns" href="http://bpsdm.dephub.go.id" title="Badan Pusat Statistik">
+                    <img src="http://localhost/ae/wp-content/uploads/2013/09/bps.png" width="84"/>
+                </a>
+            </div>
+        </div>
+
+        </div>
+        <!-- End of Custom Link -->
+
         <!-- FOOTER SIDEBAR -->
         <div id="outerfootersidebar">
         	<div id="footersidebarcontainer">
