@@ -17,6 +17,7 @@ Tags: one-column, two-columns, left-sidebar, right-sidebar, fixed-width, custom-
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:1em;
+    background: url("images/pattern.png") repeat scroll center center rgba(0, 0, 0, 0);
 }
 
 /* heading */
